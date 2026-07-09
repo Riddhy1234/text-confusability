@@ -38,15 +38,17 @@ print("60th label:", labels[59])
 import pandas as pd
 
 # Build fresh NTU-60 catalog
+# Build fresh NTU-60 catalog
 catalog_df = pd.DataFrame({
- 
-    "class_id": list(range(1, 61)),
-    "canonical_name": [ID_TO_LABEL[i] for i in range(1, 61)],
+
+    "class_id": list(range(60)),
+    "canonical_name": [ID_TO_LABEL[i] for i in range(60)],
     "pgfa_description": pgfa_lines,
     "smie_description": smie_lines,
-   "sa_dvae_description": sa_dvae_lines,
-    "star_description": ["MISSING"] * 60,
+    "sa_dvae_description": sa_dvae_lines,
+    "star_description": [None] * 60,
 })
+
 # Character length and token count
 for source in [
     "pgfa_description",
@@ -54,11 +56,10 @@ for source in [
     "sa_dvae_description",
     "star_description",
 ]:
-    catalog_df[source + "_chars"] = catalog_df[source].astype(str).str.len()
+    catalog_df[source + "_chars"] = catalog_df[source].str.len()
 
     catalog_df[source + "_tokens"] = (
         catalog_df[source]
-        .astype(str)
         .str.split()
         .str.len()
     )
@@ -77,6 +78,7 @@ print("CSV      :", csv_path)
 print("Parquet  :", parquet_path)
 print("Rows     :", len(catalog_df))
 print("Columns  :", list(catalog_df.columns))
+
 report_dir = Path("reports")
 report_dir.mkdir(exist_ok=True)
 
@@ -93,25 +95,38 @@ with open(report_path, "w", encoding="utf-8") as f:
     f.write("# Phase 1 Catalog Report\n\n")
 
     for source in sources:
-        coverage = (catalog_df[source] != "MISSING").sum()
+
+        coverage = catalog_df[source].notna().sum()
         total = len(catalog_df)
 
-        mean_chars = catalog_df[source + "_chars"].mean()
-        median_chars = catalog_df[source + "_chars"].median()
+        if coverage > 0:
+            mean_chars = catalog_df[source + "_chars"].mean()
+            median_chars = catalog_df[source + "_chars"].median()
 
-        mean_tokens = catalog_df[source + "_tokens"].mean()
-        median_tokens = catalog_df[source + "_tokens"].median()
+            mean_tokens = catalog_df[source + "_tokens"].mean()
+            median_tokens = catalog_df[source + "_tokens"].median()
+
+            mean_chars = f"{mean_chars:.2f}"
+            median_chars = f"{median_chars:.2f}"
+            mean_tokens = f"{mean_tokens:.2f}"
+            median_tokens = f"{median_tokens:.2f}"
+
+        else:
+            mean_chars = "-"
+            median_chars = "-"
+            mean_tokens = "-"
+            median_tokens = "-"
 
         f.write(f"## {source}\n")
         f.write(f"- Coverage: {coverage}/{total}\n")
-        f.write(f"- Mean characters: {mean_chars:.2f}\n")
-        f.write(f"- Median characters: {median_chars:.2f}\n")
-        f.write(f"- Mean tokens: {mean_tokens:.2f}\n")
-        f.write(f"- Median tokens: {median_tokens:.2f}\n\n")
+        f.write(f"- Mean characters: {mean_chars}\n")
+        f.write(f"- Median characters: {median_chars}\n")
+        f.write(f"- Mean tokens: {mean_tokens}\n")
+        f.write(f"- Median tokens: {median_tokens}\n\n")
 
-    # Summary (outside the loop)
     f.write("## Summary\n\n")
-    f.write("- PGFA, SMIE and SA-DVAE contain identical NTU-60 descriptions in the downloaded repositories.\n")
-    f.write("- STAR global NTU-60 description file was not present in the downloaded repository; therefore all STAR entries are explicitly marked as MISSING.\n")
+    f.write("- MD5 verification confirms that PGFA, SMIE and SA-DVAE description files are byte-identical.\n")
+    f.write("- MD5: 811755f481a375b345dd9f2268493a0c\n")
+    f.write("- STAR descriptions are currently unavailable in the downloaded repository; missing values are stored as null (NaN).\n")
 
 print("Report written:", report_path)

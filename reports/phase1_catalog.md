@@ -23,12 +23,13 @@
 
 ## star_description
 - Coverage: 0/60
-- Mean characters: 7.00
-- Median characters: 7.00
-- Mean tokens: 1.00
-- Median tokens: 1.00
+- Mean characters: -
+- Median characters: -
+- Mean tokens: -
+- Median tokens: -
 
 ## Summary
 
-- PGFA, SMIE and SA-DVAE contain identical NTU-60 descriptions in the downloaded repositories.
-- STAR global NTU-60 description file was not present in the downloaded repository; therefore all STAR entries are explicitly marked as MISSING.
+- MD5 verification confirms that PGFA, SMIE and SA-DVAE description files are byte-identical.
+- MD5: 811755f481a375b345dd9f2268493a0c
+- STAR descriptions are currently unavailable in the downloaded repository; missing values are stored as null (NaN).

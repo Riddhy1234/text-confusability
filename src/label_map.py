@@ -8,12 +8,12 @@ CANONICAL_LABELS = LABEL_MAP_FILE.read_text(
 ).splitlines()[:60]
 
 ID_TO_LABEL = {
-    i + 1: label
+    i: label
     for i, label in enumerate(CANONICAL_LABELS)
 }
 
 LABEL_TO_ID = {
-    label: i + 1
+    label: i
     for i, label in enumerate(CANONICAL_LABELS)
 }
 
