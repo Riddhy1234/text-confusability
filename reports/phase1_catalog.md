@@ -22,14 +22,14 @@
 - Median tokens: 18.00
 
 ## star_description
-- Coverage: 0/60
-- Mean characters: -
-- Median characters: -
-- Mean tokens: -
-- Median tokens: -
+- Coverage: 60/60
+- Mean characters: 508.30
+- Median characters: 507.00
+- Mean tokens: 85.73
+- Median tokens: 85.50
 
 ## Summary
 
 - MD5 verification confirms that PGFA, SMIE and SA-DVAE description files are byte-identical.
 - MD5: 811755f481a375b345dd9f2268493a0c
-- STAR descriptions are currently unavailable in the downloaded repository; missing values are stored as null (NaN).
+- STAR descriptions were extracted from text/ntu120_part_descriptions.txt (first 60 entries corresponding to NTU-60).

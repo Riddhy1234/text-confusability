@@ -7,6 +7,7 @@ catalog = Path("data/normalized/ntu60_catalog.csv")
 pgfa_desc = Path("data/raw/pgfa/descriptions/ntu60_des.txt")
 smie_desc = Path("data/raw/smie/descriptions/ntu60_des.txt")
 sa_dvae_desc = Path("data/raw/sa_dvae/class_lists/ntu60_llm.txt")
+star_desc = Path("data/raw/star_correct/text/ntu120_part_descriptions.txt")
 
 print("Catalog exists :", catalog.exists())
 print("PGFA exists    :", pgfa_desc.exists())
@@ -18,6 +19,13 @@ sa_dvae_lines = sa_dvae_desc.read_text(
     encoding="utf-8",
     errors="replace"
 ).splitlines()
+star_lines = (
+    star_desc.read_text(
+        encoding="utf-8",
+        errors="replace"
+    )
+    .splitlines()[:60]
+)
 
 print("PGFA lines :", len(pgfa_lines))
 print("SMIE lines :", len(smie_lines))
@@ -46,7 +54,7 @@ catalog_df = pd.DataFrame({
     "pgfa_description": pgfa_lines,
     "smie_description": smie_lines,
     "sa_dvae_description": sa_dvae_lines,
-    "star_description": [None] * 60,
+    "star_description": star_lines,
 })
 
 # Character length and token count
@@ -127,6 +135,6 @@ with open(report_path, "w", encoding="utf-8") as f:
     f.write("## Summary\n\n")
     f.write("- MD5 verification confirms that PGFA, SMIE and SA-DVAE description files are byte-identical.\n")
     f.write("- MD5: 811755f481a375b345dd9f2268493a0c\n")
-    f.write("- STAR descriptions are currently unavailable in the downloaded repository; missing values are stored as null (NaN).\n")
+    f.write("- STAR descriptions were extracted from text/ntu120_part_descriptions.txt (first 60 entries corresponding to NTU-60).\n")
 
 print("Report written:", report_path)
