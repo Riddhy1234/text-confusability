@@ -98,43 +98,58 @@ sources = [
     "sa_dvae_description",
     "star_description",
 ]
-
 with open(report_path, "w", encoding="utf-8") as f:
+
     f.write("# Phase 1 Catalog Report\n\n")
+
+    f.write("## Key Finding\n\n")
+    f.write(
+        
+    "MD5 verification shows that the PGFA, SMIE, and SA-DVAE repositories use byte-identical description files. "
+    "Repository inspection confirms that these are the actual description files used by each method, rather than duplicated copies introduced during preprocessing. "
+    "Therefore, these three methods share the same holistic LLM-generated description corpus, while STAR represents a distinct part-based description style.\n\n"
+)
+
+    f.write(
+        "Consequently, Phase 2 will compare two description groups:\n"
+    )
+    f.write("- Holistic-LLM: PGFA = SMIE = SA-DVAE\n")
+    f.write("- Part-based: STAR\n\n")
 
     for source in sources:
 
         coverage = catalog_df[source].notna().sum()
         total = len(catalog_df)
 
-        if coverage > 0:
-            mean_chars = catalog_df[source + "_chars"].mean()
-            median_chars = catalog_df[source + "_chars"].median()
-
-            mean_tokens = catalog_df[source + "_tokens"].mean()
-            median_tokens = catalog_df[source + "_tokens"].median()
-
-            mean_chars = f"{mean_chars:.2f}"
-            median_chars = f"{median_chars:.2f}"
-            mean_tokens = f"{mean_tokens:.2f}"
-            median_tokens = f"{median_tokens:.2f}"
-
-        else:
-            mean_chars = "-"
-            median_chars = "-"
-            mean_tokens = "-"
-            median_tokens = "-"
+        mean_chars = catalog_df[source + "_chars"].mean()
+        median_chars = catalog_df[source + "_chars"].median()
+        mean_tokens = catalog_df[source + "_tokens"].mean()
+        median_tokens = catalog_df[source + "_tokens"].median()
 
         f.write(f"## {source}\n")
         f.write(f"- Coverage: {coverage}/{total}\n")
-        f.write(f"- Mean characters: {mean_chars}\n")
-        f.write(f"- Median characters: {median_chars}\n")
-        f.write(f"- Mean tokens: {mean_tokens}\n")
-        f.write(f"- Median tokens: {median_tokens}\n\n")
+        f.write(f"- Mean characters: {mean_chars:.2f}\n")
+        f.write(f"- Median characters: {median_chars:.2f}\n")
+        f.write(f"- Mean tokens: {mean_tokens:.2f}\n")
+        f.write(f"- Median tokens: {median_tokens:.2f}\n\n")
+
+    f.write("## Provenance Verification\n\n")
+    f.write("- PGFA uses descriptions/ntu60_des.txt\n")
+    f.write("- SMIE uses descriptions/ntu60_des.txt\n")
+    f.write("- SA-DVAE uses class_lists/ntu60_llm.txt\n")
+    f.write("- STAR uses text/ntu120_part_descriptions.txt\n\n")
+
+    f.write("## Label Normalization\n\n")
+    f.write(
+        'Canonical labels use names such as "Brushing hair", while STAR uses '
+        '"brush hair". Only the label names were normalized; description text '
+        "was left unchanged.\n\n"
+    )
 
     f.write("## Summary\n\n")
-    f.write("- MD5 verification confirms that PGFA, SMIE and SA-DVAE description files are byte-identical.\n")
+    f.write("- PGFA, SMIE and SA-DVAE have identical MD5 hashes.\n")
     f.write("- MD5: 811755f481a375b345dd9f2268493a0c\n")
-    f.write("- STAR descriptions were extracted from text/ntu120_part_descriptions.txt (first 60 entries corresponding to NTU-60).\n")
-
-print("Report written:", report_path)
+    f.write("- STAR descriptions were extracted from the first 60 entries of ntu120_part_descriptions.txt.\n")
+    f.write(
+    "- For Phase 2, PGFA, SMIE and SA-DVAE will be treated as a single Holistic-LLM group, while STAR will be treated as the Part-based group.\n"
+)
