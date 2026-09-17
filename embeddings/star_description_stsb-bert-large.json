@@ -1,0 +1,10 @@
+{
+  "encoder": "stsb-bert-large",
+  "source": "star_description",
+  "shape": [
+    60,
+    1024
+  ],
+  "dimension": 1024,
+  "content_hash": "137e94cc7d3c83160da277cfbdf64adc5108fd6c15d2a07831dcf24803a295f3"
+}

@@ -1,0 +1,601 @@
+encoder,source,class_index,class_name,distinctiveness,top1_competitor,top1_similarity,top2_competitor,top2_similarity,top1_top2_gap
+all-mpnet-base-v2,Name,1,Drink water,0.7166931,Put on a hat/cap,0.300195,Eat meal/snack,0.29283956,0.0073554516
+all-mpnet-base-v2,Name,2,Eat meal/snack,0.73056364,Drink water,0.29283956,Nausea or vomiting,0.28296694,0.009872615
+all-mpnet-base-v2,Name,3,Brushing teeth,0.59617615,Brushing hair,0.75142336,Wiping face,0.44969738,0.30172598
+all-mpnet-base-v2,Name,4,Brushing hair,0.61518216,Brushing teeth,0.75142336,Wiping face,0.3667491,0.38467425
+all-mpnet-base-v2,Name,5,Drop,0.6150323,Throw,0.48708314,Falling,0.409082,0.07800114
+all-mpnet-base-v2,Name,6,Pickup,0.6955377,Drop,0.39987406,Jumping up,0.29618686,0.1036872
+all-mpnet-base-v2,Name,7,Throw,0.6392573,Drop,0.48708314,Kicking something,0.36937425,0.11770889
+all-mpnet-base-v2,Name,8,Sitting down,0.5500159,Standing up (from sitting position),0.59293365,Falling,0.4343928,0.15854084
+all-mpnet-base-v2,Name,9,Standing up (from sitting position),0.57021093,Sitting down,0.59293365,Jumping up,0.5235089,0.06942475
+all-mpnet-base-v2,Name,10,Clapping,0.47833312,Handshaking,0.59796214,Hand waving,0.5704864,0.027475715
+all-mpnet-base-v2,Name,11,Reading,0.64654076,Writing,0.57217854,Sitting down,0.37267607,0.19950247
+all-mpnet-base-v2,Name,12,Writing,0.5963249,Reading,0.57217854,Typing on a keyboard,0.44621557,0.12596297
+all-mpnet-base-v2,Name,13,Tear up paper,0.6707313,Using a fan (with hand or paper),0.4274573,Wiping face,0.3394541,0.08800319
+all-mpnet-base-v2,Name,14,Wear jacket,0.5332614,Take off jacket,0.75056624,Put on a hat/cap,0.4652463,0.28531995
+all-mpnet-base-v2,Name,15,Take off jacket,0.42601085,Wear jacket,0.75056624,Take off a hat/cap,0.5746044,0.17596185
+all-mpnet-base-v2,Name,16,Wear a shoe,0.5343828,Take off a shoe,0.72137487,Wear jacket,0.43306357,0.2883113
+all-mpnet-base-v2,Name,17,Take off a shoe,0.4572872,Wear a shoe,0.72137487,Take off jacket,0.5489329,0.17244196
+all-mpnet-base-v2,Name,18,Wear on glasses,0.655236,Take off glasses,0.6197225,Wear a shoe,0.32668722,0.29303527
+all-mpnet-base-v2,Name,19,Take off glasses,0.47013485,Wear on glasses,0.6197225,Take off a hat/cap,0.53339934,0.08632314
+all-mpnet-base-v2,Name,20,Put on a hat/cap,0.4290505,Take off a hat/cap,0.84620595,Take off glasses,0.5248542,0.32135177
+all-mpnet-base-v2,Name,21,Take off a hat/cap,0.40123117,Put on a hat/cap,0.84620595,Take off jacket,0.5746044,0.27160156
+all-mpnet-base-v2,Name,22,Cheer up,0.7551844,Put on a hat/cap,0.2801367,Shake head,0.2762032,0.003933519
+all-mpnet-base-v2,Name,23,Hand waving,0.4202065,Handshaking,0.6514294,Clapping,0.5704864,0.08094299
+all-mpnet-base-v2,Name,24,Kicking something,0.44468367,Kicking other person,0.78010005,Jumping up,0.5289101,0.25118995
+all-mpnet-base-v2,Name,25,Reach into pocket,0.51824623,Touching other person's pocket,0.6745672,Pointing to something with finger,0.4844935,0.19007373
+all-mpnet-base-v2,Name,26,Hopping (one foot jumping),0.504389,Jumping up,0.7047201,Kicking something,0.5223,0.18242007
+all-mpnet-base-v2,Name,27,Jumping up,0.45659745,Hopping (one foot jumping),0.7047201,Kicking something,0.5289101,0.17580998
+all-mpnet-base-v2,Name,28,Make a phone call/Answer phone,0.67721784,Playing with phone/tablet,0.36749583,Reach into pocket,0.34810537,0.019390464
+all-mpnet-base-v2,Name,29,Playing with phone/tablet,0.6763474,Typing on a keyboard,0.4219535,Make a phone call/Answer phone,0.36749583,0.054457664
+all-mpnet-base-v2,Name,30,Typing on a keyboard,0.61643183,Writing,0.44621557,Playing with phone/tablet,0.4219535,0.02426207
+all-mpnet-base-v2,Name,31,Pointing to something with finger,0.48291296,Pointing finger at the other person,0.71097183,Hand waving,0.5532201,0.15775174
+all-mpnet-base-v2,Name,32,Taking a selfie,0.65513074,Sitting down,0.40108025,Handshaking,0.33900177,0.062078476
+all-mpnet-base-v2,Name,33,Checking time (from watch),0.8182344,Wear a shoe,0.19196182,Eat meal/snack,0.18805678,0.003905043
+all-mpnet-base-v2,Name,34,Rubbing two hands together,0.46134984,Handshaking,0.5531854,Hand waving,0.5469253,0.006260097
+all-mpnet-base-v2,Name,35,Nod headbow,0.5510154,Shake head,0.60839057,Hand waving,0.46971366,0.13867691
+all-mpnet-base-v2,Name,36,Shake head,0.46574628,Nod headbow,0.60839057,Hand waving,0.55518264,0.053207934
+all-mpnet-base-v2,Name,37,Wiping face,0.6326755,Brushing teeth,0.44969738,Brushing hair,0.3667491,0.08294827
+all-mpnet-base-v2,Name,38,Salute,0.61962605,Hand waving,0.43443096,Clapping,0.42022562,0.014205337
+all-mpnet-base-v2,Name,39,Putting the palms together,0.6744112,Rubbing two hands together,0.44176555,Handshaking,0.34160447,0.100161076
+all-mpnet-base-v2,Name,40,Crossing hands in front (saying stop),0.47620207,Hand waving,0.56864905,Handshaking,0.56108403,0.0075650215
+all-mpnet-base-v2,Name,41,Sneeze/cough,0.64782286,Touching neck (neckache),0.38134417,Put on a hat/cap,0.36575717,0.015587002
+all-mpnet-base-v2,Name,42,Staggering,0.64906144,Falling,0.4151069,Kicking something,0.370825,0.0442819
+all-mpnet-base-v2,Name,43,Falling,0.56853294,Jumping up,0.4794276,Sitting down,0.4343928,0.045034796
+all-mpnet-base-v2,Name,44,Touching head (headache),0.43667763,Touching neck (neckache),0.74621475,Touching back (backache),0.58341306,0.16280168
+all-mpnet-base-v2,Name,45,Touching chest (stomachache/heart pain),0.47376627,Touching neck (neckache),0.617295,Touching back (backache),0.58368635,0.033608675
+all-mpnet-base-v2,Name,46,Touching back (backache),0.45060307,Touching neck (neckache),0.6505628,Touching chest (stomachache/heart pain),0.58368635,0.06687647
+all-mpnet-base-v2,Name,47,Touching neck (neckache),0.40913427,Touching head (headache),0.74621475,Touching back (backache),0.6505628,0.095651925
+all-mpnet-base-v2,Name,48,Nausea or vomiting,0.72189003,Sneeze/cough,0.327885,Touching chest (stomachache/heart pain),0.30599546,0.021889538
+all-mpnet-base-v2,Name,49,Using a fan (with hand or paper),0.63919866,Tear up paper,0.4274573,Rubbing two hands together,0.3810146,0.046442717
+all-mpnet-base-v2,Name,50,Punching/Slapping other person,0.4335624,Kicking other person,0.70941675,Pushing other person,0.6289283,0.08048844
+all-mpnet-base-v2,Name,51,Kicking other person,0.39679945,Kicking something,0.78010005,Punching/Slapping other person,0.70941675,0.0706833
+all-mpnet-base-v2,Name,52,Pushing other person,0.44857234,Kicking other person,0.6696178,Punching/Slapping other person,0.6289283,0.04068947
+all-mpnet-base-v2,Name,53,Patting on back of other person,0.44010854,Hugging other person,0.68533826,Touching other person's pocket,0.56123006,0.124108195
+all-mpnet-base-v2,Name,54,Pointing finger at the other person,0.46307045,Pointing to something with finger,0.71097183,Hand waving,0.50991434,0.2010575
+all-mpnet-base-v2,Name,55,Hugging other person,0.4257251,Patting on back of other person,0.68533826,Punching/Slapping other person,0.5522976,0.13304067
+all-mpnet-base-v2,Name,56,Giving something to other person,0.54091704,Hugging other person,0.52714217,Patting on back of other person,0.48265222,0.04448995
+all-mpnet-base-v2,Name,57,Touching other person's pocket,0.4502303,Reach into pocket,0.6745672,Patting on back of other person,0.56123006,0.11333716
+all-mpnet-base-v2,Name,58,Handshaking,0.41693032,Hand waving,0.6514294,Clapping,0.59796214,0.053467274
+all-mpnet-base-v2,Name,59,Walking towards each other,0.4792425,Walking apart from each other,0.7715259,Handshaking,0.5437987,0.22772723
+all-mpnet-base-v2,Name,60,Walking apart from each other,0.5214027,Walking towards each other,0.7715259,Crossing hands in front (saying stop),0.47371668,0.29780924
+all-mpnet-base-v2,PGFA,1,Drink water,0.6447121,Eat meal/snack,0.44057408,Make a phone call/Answer phone,0.374781,0.06579307
+all-mpnet-base-v2,PGFA,2,Eat meal/snack,0.6599879,Drink water,0.44057408,Make a phone call/Answer phone,0.324456,0.11611807
+all-mpnet-base-v2,PGFA,3,Brushing teeth,0.5975834,Brushing hair,0.76241463,Wiping face,0.3494626,0.41295204
+all-mpnet-base-v2,PGFA,4,Brushing hair,0.5807432,Brushing teeth,0.76241463,Put on a hat/cap,0.33804306,0.42437157
+all-mpnet-base-v2,PGFA,5,Drop,0.5019349,Falling,0.65597486,Throw,0.56787044,0.08810443
+all-mpnet-base-v2,PGFA,6,Pickup,0.5311726,Touching other person's pocket,0.48811215,Hand waving,0.48439795,0.0037142038
+all-mpnet-base-v2,PGFA,7,Throw,0.5387936,Drop,0.56787044,Pickup,0.46382862,0.104041815
+all-mpnet-base-v2,PGFA,8,Sitting down,0.53425187,Standing up (from sitting position),0.6199009,Falling,0.45630845,0.16359243
+all-mpnet-base-v2,PGFA,9,Standing up (from sitting position),0.49292403,Sitting down,0.6199009,Jumping up,0.6072656,0.012635291
+all-mpnet-base-v2,PGFA,10,Clapping,0.388672,Handshaking,0.678878,Putting the palms together,0.6223774,0.056500614
+all-mpnet-base-v2,PGFA,11,Reading,0.64220697,Writing,0.5267172,Drink water,0.33086142,0.19585577
+all-mpnet-base-v2,PGFA,12,Writing,0.5654894,Typing on a keyboard,0.5722766,Reading,0.5267172,0.045559406
+all-mpnet-base-v2,PGFA,13,Tear up paper,0.6304522,Take off glasses,0.3826097,Writing,0.37268382,0.009925872
+all-mpnet-base-v2,PGFA,14,Wear jacket,0.4980774,Take off jacket,0.6467941,Wear a shoe,0.56581676,0.08097732
+all-mpnet-base-v2,PGFA,15,Take off jacket,0.4219541,Take off a shoe,0.66432804,Wear jacket,0.6467941,0.017533958
+all-mpnet-base-v2,PGFA,16,Wear a shoe,0.47279692,Take off a shoe,0.65792346,Wear jacket,0.56581676,0.0921067
+all-mpnet-base-v2,PGFA,17,Take off a shoe,0.39647776,Take off glasses,0.66982913,Take off jacket,0.66432804,0.0055010915
+all-mpnet-base-v2,PGFA,18,Wear on glasses,0.5331269,Take off glasses,0.61743337,Wear a shoe,0.48745838,0.12997499
+all-mpnet-base-v2,PGFA,19,Take off glasses,0.4466195,Take off a shoe,0.66982913,Wear on glasses,0.61743337,0.05239576
+all-mpnet-base-v2,PGFA,20,Put on a hat/cap,0.47046,Take off a hat/cap,0.72511697,Wear jacket,0.5159585,0.20915848
+all-mpnet-base-v2,PGFA,21,Take off a hat/cap,0.42408824,Put on a hat/cap,0.72511697,Take off jacket,0.6255282,0.09958875
+all-mpnet-base-v2,PGFA,22,Cheer up,0.68293446,Hugging other person,0.35021448,Jumping up,0.3236814,0.026533067
+all-mpnet-base-v2,PGFA,23,Hand waving,0.3471797,Handshaking,0.73824704,Crossing hands in front (saying stop),0.6487379,0.08950913
+all-mpnet-base-v2,PGFA,24,Kicking something,0.4309672,Kicking other person,0.8730548,Hopping (one foot jumping),0.535818,0.33723682
+all-mpnet-base-v2,PGFA,25,Reach into pocket,0.5578898,Touching other person's pocket,0.67374253,Pointing to something with finger,0.44833714,0.2254054
+all-mpnet-base-v2,PGFA,26,Hopping (one foot jumping),0.47183192,Jumping up,0.6778367,Kicking something,0.535818,0.14201874
+all-mpnet-base-v2,PGFA,27,Jumping up,0.490965,Hopping (one foot jumping),0.6778367,Standing up (from sitting position),0.6072656,0.070571125
+all-mpnet-base-v2,PGFA,28,Make a phone call/Answer phone,0.6341727,Pickup,0.4106272,Playing with phone/tablet,0.3963363,0.014290899
+all-mpnet-base-v2,PGFA,29,Playing with phone/tablet,0.58715785,Typing on a keyboard,0.4887833,Touching other person's pocket,0.40742603,0.08135727
+all-mpnet-base-v2,PGFA,30,Typing on a keyboard,0.56928384,Writing,0.5722766,Playing with phone/tablet,0.4887833,0.08349329
+all-mpnet-base-v2,PGFA,31,Pointing to something with finger,0.4081303,Pointing finger at the other person,0.78939146,Hand waving,0.645464,0.14392745
+all-mpnet-base-v2,PGFA,32,Taking a selfie,0.7005449,Typing on a keyboard,0.32947052,Hugging other person,0.3021267,0.02734381
+all-mpnet-base-v2,PGFA,33,Checking time (from watch),0.6985262,Wear a shoe,0.3128179,Take off glasses,0.30475956,0.008058339
+all-mpnet-base-v2,PGFA,34,Rubbing two hands together,0.45247614,Putting the palms together,0.6071749,Handshaking,0.55166805,0.055506825
+all-mpnet-base-v2,PGFA,35,Nod headbow,0.4065286,Salute,0.67931527,Shake head,0.6476642,0.03165108
+all-mpnet-base-v2,PGFA,36,Shake head,0.4607628,Nod headbow,0.6476642,Hand waving,0.56141376,0.086250424
+all-mpnet-base-v2,PGFA,37,Wiping face,0.62762374,Punching/Slapping other person,0.39727312,Take off glasses,0.38042524,0.016847879
+all-mpnet-base-v2,PGFA,38,Salute,0.4086631,Nod headbow,0.67931527,Handshaking,0.6449542,0.034361064
+all-mpnet-base-v2,PGFA,39,Putting the palms together,0.42954385,Clapping,0.6223774,Rubbing two hands together,0.6071749,0.015202522
+all-mpnet-base-v2,PGFA,40,Crossing hands in front (saying stop),0.45223898,Hand waving,0.6487379,Handshaking,0.5664539,0.08228403
+all-mpnet-base-v2,PGFA,41,Sneeze/cough,0.6832676,Wiping face,0.37303388,Nausea or vomiting,0.3432332,0.029800683
+all-mpnet-base-v2,PGFA,42,Staggering,0.58185256,Falling,0.5498877,Shake head,0.43519807,0.11468965
+all-mpnet-base-v2,PGFA,43,Falling,0.4838372,Drop,0.65597486,Staggering,0.5498877,0.10608715
+all-mpnet-base-v2,PGFA,44,Touching head (headache),0.42284542,Touching neck (neckache),0.7472488,Touching back (backache),0.6004818,0.14676702
+all-mpnet-base-v2,PGFA,45,Touching chest (stomachache/heart pain),0.45088434,Touching back (backache),0.613153,Touching neck (neckache),0.5978693,0.015283704
+all-mpnet-base-v2,PGFA,46,Touching back (backache),0.39217502,Patting on back of other person,0.6676172,Touching neck (neckache),0.6585821,0.0090351105
+all-mpnet-base-v2,PGFA,47,Touching neck (neckache),0.3938288,Touching head (headache),0.7472488,Touching back (backache),0.6585821,0.08866674
+all-mpnet-base-v2,PGFA,48,Nausea or vomiting,0.68040997,Sneeze/cough,0.3432332,Staggering,0.33924538,0.003987819
+all-mpnet-base-v2,PGFA,49,Using a fan (with hand or paper),0.6190615,Rubbing two hands together,0.41737488,Hand waving,0.38812953,0.029245347
+all-mpnet-base-v2,PGFA,50,Punching/Slapping other person,0.43305683,Kicking other person,0.63432837,Patting on back of other person,0.5796634,0.05466497
+all-mpnet-base-v2,PGFA,51,Kicking other person,0.38794088,Kicking something,0.8730548,Punching/Slapping other person,0.63432837,0.23872644
+all-mpnet-base-v2,PGFA,52,Pushing other person,0.49298084,Kicking other person,0.5775258,Punching/Slapping other person,0.55825615,0.019269645
+all-mpnet-base-v2,PGFA,53,Patting on back of other person,0.38686526,Touching back (backache),0.6676172,Hugging other person,0.6190981,0.048519075
+all-mpnet-base-v2,PGFA,54,Pointing finger at the other person,0.44080007,Pointing to something with finger,0.78939146,Hand waving,0.52163047,0.267761
+all-mpnet-base-v2,PGFA,55,Hugging other person,0.43096077,Patting on back of other person,0.6190981,Handshaking,0.61077416,0.008323967
+all-mpnet-base-v2,PGFA,56,Giving something to other person,0.61364776,Hugging other person,0.41930008,Touching other person's pocket,0.39402148,0.025278598
+all-mpnet-base-v2,PGFA,57,Touching other person's pocket,0.45642245,Reach into pocket,0.67374253,Patting on back of other person,0.54800737,0.12573516
+all-mpnet-base-v2,PGFA,58,Handshaking,0.34594566,Hand waving,0.73824704,Clapping,0.678878,0.059369028
+all-mpnet-base-v2,PGFA,59,Walking towards each other,0.47449058,Walking apart from each other,0.7228347,Hugging other person,0.49398303,0.22885168
+all-mpnet-base-v2,PGFA,60,Walking apart from each other,0.52860445,Walking towards each other,0.7228347,Take off a shoe,0.4341992,0.2886355
+all-mpnet-base-v2,SMIE,1,Drink water,0.6447121,Eat meal/snack,0.44057408,Make a phone call/Answer phone,0.374781,0.06579307
+all-mpnet-base-v2,SMIE,2,Eat meal/snack,0.6599879,Drink water,0.44057408,Make a phone call/Answer phone,0.324456,0.11611807
+all-mpnet-base-v2,SMIE,3,Brushing teeth,0.5975834,Brushing hair,0.76241463,Wiping face,0.3494626,0.41295204
+all-mpnet-base-v2,SMIE,4,Brushing hair,0.5807432,Brushing teeth,0.76241463,Put on a hat/cap,0.33804306,0.42437157
+all-mpnet-base-v2,SMIE,5,Drop,0.5019349,Falling,0.65597486,Throw,0.56787044,0.08810443
+all-mpnet-base-v2,SMIE,6,Pickup,0.5311726,Touching other person's pocket,0.48811215,Hand waving,0.48439795,0.0037142038
+all-mpnet-base-v2,SMIE,7,Throw,0.5387936,Drop,0.56787044,Pickup,0.46382862,0.104041815
+all-mpnet-base-v2,SMIE,8,Sitting down,0.53425187,Standing up (from sitting position),0.6199009,Falling,0.45630845,0.16359243
+all-mpnet-base-v2,SMIE,9,Standing up (from sitting position),0.49292403,Sitting down,0.6199009,Jumping up,0.6072656,0.012635291
+all-mpnet-base-v2,SMIE,10,Clapping,0.388672,Handshaking,0.678878,Putting the palms together,0.6223774,0.056500614
+all-mpnet-base-v2,SMIE,11,Reading,0.64220697,Writing,0.5267172,Drink water,0.33086142,0.19585577
+all-mpnet-base-v2,SMIE,12,Writing,0.5654894,Typing on a keyboard,0.5722766,Reading,0.5267172,0.045559406
+all-mpnet-base-v2,SMIE,13,Tear up paper,0.6304522,Take off glasses,0.3826097,Writing,0.37268382,0.009925872
+all-mpnet-base-v2,SMIE,14,Wear jacket,0.4980774,Take off jacket,0.6467941,Wear a shoe,0.56581676,0.08097732
+all-mpnet-base-v2,SMIE,15,Take off jacket,0.4219541,Take off a shoe,0.66432804,Wear jacket,0.6467941,0.017533958
+all-mpnet-base-v2,SMIE,16,Wear a shoe,0.47279692,Take off a shoe,0.65792346,Wear jacket,0.56581676,0.0921067
+all-mpnet-base-v2,SMIE,17,Take off a shoe,0.39647776,Take off glasses,0.66982913,Take off jacket,0.66432804,0.0055010915
+all-mpnet-base-v2,SMIE,18,Wear on glasses,0.5331269,Take off glasses,0.61743337,Wear a shoe,0.48745838,0.12997499
+all-mpnet-base-v2,SMIE,19,Take off glasses,0.4466195,Take off a shoe,0.66982913,Wear on glasses,0.61743337,0.05239576
+all-mpnet-base-v2,SMIE,20,Put on a hat/cap,0.47046,Take off a hat/cap,0.72511697,Wear jacket,0.5159585,0.20915848
+all-mpnet-base-v2,SMIE,21,Take off a hat/cap,0.42408824,Put on a hat/cap,0.72511697,Take off jacket,0.6255282,0.09958875
+all-mpnet-base-v2,SMIE,22,Cheer up,0.68293446,Hugging other person,0.35021448,Jumping up,0.3236814,0.026533067
+all-mpnet-base-v2,SMIE,23,Hand waving,0.3471797,Handshaking,0.73824704,Crossing hands in front (saying stop),0.6487379,0.08950913
+all-mpnet-base-v2,SMIE,24,Kicking something,0.4309672,Kicking other person,0.8730548,Hopping (one foot jumping),0.535818,0.33723682
+all-mpnet-base-v2,SMIE,25,Reach into pocket,0.5578898,Touching other person's pocket,0.67374253,Pointing to something with finger,0.44833714,0.2254054
+all-mpnet-base-v2,SMIE,26,Hopping (one foot jumping),0.47183192,Jumping up,0.6778367,Kicking something,0.535818,0.14201874
+all-mpnet-base-v2,SMIE,27,Jumping up,0.490965,Hopping (one foot jumping),0.6778367,Standing up (from sitting position),0.6072656,0.070571125
+all-mpnet-base-v2,SMIE,28,Make a phone call/Answer phone,0.6341727,Pickup,0.4106272,Playing with phone/tablet,0.3963363,0.014290899
+all-mpnet-base-v2,SMIE,29,Playing with phone/tablet,0.58715785,Typing on a keyboard,0.4887833,Touching other person's pocket,0.40742603,0.08135727
+all-mpnet-base-v2,SMIE,30,Typing on a keyboard,0.56928384,Writing,0.5722766,Playing with phone/tablet,0.4887833,0.08349329
+all-mpnet-base-v2,SMIE,31,Pointing to something with finger,0.4081303,Pointing finger at the other person,0.78939146,Hand waving,0.645464,0.14392745
+all-mpnet-base-v2,SMIE,32,Taking a selfie,0.7005449,Typing on a keyboard,0.32947052,Hugging other person,0.3021267,0.02734381
+all-mpnet-base-v2,SMIE,33,Checking time (from watch),0.6985262,Wear a shoe,0.3128179,Take off glasses,0.30475956,0.008058339
+all-mpnet-base-v2,SMIE,34,Rubbing two hands together,0.45247614,Putting the palms together,0.6071749,Handshaking,0.55166805,0.055506825
+all-mpnet-base-v2,SMIE,35,Nod headbow,0.4065286,Salute,0.67931527,Shake head,0.6476642,0.03165108
+all-mpnet-base-v2,SMIE,36,Shake head,0.4607628,Nod headbow,0.6476642,Hand waving,0.56141376,0.086250424
+all-mpnet-base-v2,SMIE,37,Wiping face,0.62762374,Punching/Slapping other person,0.39727312,Take off glasses,0.38042524,0.016847879
+all-mpnet-base-v2,SMIE,38,Salute,0.4086631,Nod headbow,0.67931527,Handshaking,0.6449542,0.034361064
+all-mpnet-base-v2,SMIE,39,Putting the palms together,0.42954385,Clapping,0.6223774,Rubbing two hands together,0.6071749,0.015202522
+all-mpnet-base-v2,SMIE,40,Crossing hands in front (saying stop),0.45223898,Hand waving,0.6487379,Handshaking,0.5664539,0.08228403
+all-mpnet-base-v2,SMIE,41,Sneeze/cough,0.6832676,Wiping face,0.37303388,Nausea or vomiting,0.3432332,0.029800683
+all-mpnet-base-v2,SMIE,42,Staggering,0.58185256,Falling,0.5498877,Shake head,0.43519807,0.11468965
+all-mpnet-base-v2,SMIE,43,Falling,0.4838372,Drop,0.65597486,Staggering,0.5498877,0.10608715
+all-mpnet-base-v2,SMIE,44,Touching head (headache),0.42284542,Touching neck (neckache),0.7472488,Touching back (backache),0.6004818,0.14676702
+all-mpnet-base-v2,SMIE,45,Touching chest (stomachache/heart pain),0.45088434,Touching back (backache),0.613153,Touching neck (neckache),0.5978693,0.015283704
+all-mpnet-base-v2,SMIE,46,Touching back (backache),0.39217502,Patting on back of other person,0.6676172,Touching neck (neckache),0.6585821,0.0090351105
+all-mpnet-base-v2,SMIE,47,Touching neck (neckache),0.3938288,Touching head (headache),0.7472488,Touching back (backache),0.6585821,0.08866674
+all-mpnet-base-v2,SMIE,48,Nausea or vomiting,0.68040997,Sneeze/cough,0.3432332,Staggering,0.33924538,0.003987819
+all-mpnet-base-v2,SMIE,49,Using a fan (with hand or paper),0.6190615,Rubbing two hands together,0.41737488,Hand waving,0.38812953,0.029245347
+all-mpnet-base-v2,SMIE,50,Punching/Slapping other person,0.43305683,Kicking other person,0.63432837,Patting on back of other person,0.5796634,0.05466497
+all-mpnet-base-v2,SMIE,51,Kicking other person,0.38794088,Kicking something,0.8730548,Punching/Slapping other person,0.63432837,0.23872644
+all-mpnet-base-v2,SMIE,52,Pushing other person,0.49298084,Kicking other person,0.5775258,Punching/Slapping other person,0.55825615,0.019269645
+all-mpnet-base-v2,SMIE,53,Patting on back of other person,0.38686526,Touching back (backache),0.6676172,Hugging other person,0.6190981,0.048519075
+all-mpnet-base-v2,SMIE,54,Pointing finger at the other person,0.44080007,Pointing to something with finger,0.78939146,Hand waving,0.52163047,0.267761
+all-mpnet-base-v2,SMIE,55,Hugging other person,0.43096077,Patting on back of other person,0.6190981,Handshaking,0.61077416,0.008323967
+all-mpnet-base-v2,SMIE,56,Giving something to other person,0.61364776,Hugging other person,0.41930008,Touching other person's pocket,0.39402148,0.025278598
+all-mpnet-base-v2,SMIE,57,Touching other person's pocket,0.45642245,Reach into pocket,0.67374253,Patting on back of other person,0.54800737,0.12573516
+all-mpnet-base-v2,SMIE,58,Handshaking,0.34594566,Hand waving,0.73824704,Clapping,0.678878,0.059369028
+all-mpnet-base-v2,SMIE,59,Walking towards each other,0.47449058,Walking apart from each other,0.7228347,Hugging other person,0.49398303,0.22885168
+all-mpnet-base-v2,SMIE,60,Walking apart from each other,0.52860445,Walking towards each other,0.7228347,Take off a shoe,0.4341992,0.2886355
+all-mpnet-base-v2,SA-DVAE,1,Drink water,0.6447121,Eat meal/snack,0.44057408,Make a phone call/Answer phone,0.374781,0.06579307
+all-mpnet-base-v2,SA-DVAE,2,Eat meal/snack,0.6599879,Drink water,0.44057408,Make a phone call/Answer phone,0.324456,0.11611807
+all-mpnet-base-v2,SA-DVAE,3,Brushing teeth,0.5975834,Brushing hair,0.76241463,Wiping face,0.3494626,0.41295204
+all-mpnet-base-v2,SA-DVAE,4,Brushing hair,0.5807432,Brushing teeth,0.76241463,Put on a hat/cap,0.33804306,0.42437157
+all-mpnet-base-v2,SA-DVAE,5,Drop,0.5019349,Falling,0.65597486,Throw,0.56787044,0.08810443
+all-mpnet-base-v2,SA-DVAE,6,Pickup,0.5311726,Touching other person's pocket,0.48811215,Hand waving,0.48439795,0.0037142038
+all-mpnet-base-v2,SA-DVAE,7,Throw,0.5387936,Drop,0.56787044,Pickup,0.46382862,0.104041815
+all-mpnet-base-v2,SA-DVAE,8,Sitting down,0.53425187,Standing up (from sitting position),0.6199009,Falling,0.45630845,0.16359243
+all-mpnet-base-v2,SA-DVAE,9,Standing up (from sitting position),0.49292403,Sitting down,0.6199009,Jumping up,0.6072656,0.012635291
+all-mpnet-base-v2,SA-DVAE,10,Clapping,0.388672,Handshaking,0.678878,Putting the palms together,0.6223774,0.056500614
+all-mpnet-base-v2,SA-DVAE,11,Reading,0.64220697,Writing,0.5267172,Drink water,0.33086142,0.19585577
+all-mpnet-base-v2,SA-DVAE,12,Writing,0.5654894,Typing on a keyboard,0.5722766,Reading,0.5267172,0.045559406
+all-mpnet-base-v2,SA-DVAE,13,Tear up paper,0.6304522,Take off glasses,0.3826097,Writing,0.37268382,0.009925872
+all-mpnet-base-v2,SA-DVAE,14,Wear jacket,0.4980774,Take off jacket,0.6467941,Wear a shoe,0.56581676,0.08097732
+all-mpnet-base-v2,SA-DVAE,15,Take off jacket,0.4219541,Take off a shoe,0.66432804,Wear jacket,0.6467941,0.017533958
+all-mpnet-base-v2,SA-DVAE,16,Wear a shoe,0.47279692,Take off a shoe,0.65792346,Wear jacket,0.56581676,0.0921067
+all-mpnet-base-v2,SA-DVAE,17,Take off a shoe,0.39647776,Take off glasses,0.66982913,Take off jacket,0.66432804,0.0055010915
+all-mpnet-base-v2,SA-DVAE,18,Wear on glasses,0.5331269,Take off glasses,0.61743337,Wear a shoe,0.48745838,0.12997499
+all-mpnet-base-v2,SA-DVAE,19,Take off glasses,0.4466195,Take off a shoe,0.66982913,Wear on glasses,0.61743337,0.05239576
+all-mpnet-base-v2,SA-DVAE,20,Put on a hat/cap,0.47046,Take off a hat/cap,0.72511697,Wear jacket,0.5159585,0.20915848
+all-mpnet-base-v2,SA-DVAE,21,Take off a hat/cap,0.42408824,Put on a hat/cap,0.72511697,Take off jacket,0.6255282,0.09958875
+all-mpnet-base-v2,SA-DVAE,22,Cheer up,0.68293446,Hugging other person,0.35021448,Jumping up,0.3236814,0.026533067
+all-mpnet-base-v2,SA-DVAE,23,Hand waving,0.3471797,Handshaking,0.73824704,Crossing hands in front (saying stop),0.6487379,0.08950913
+all-mpnet-base-v2,SA-DVAE,24,Kicking something,0.4309672,Kicking other person,0.8730548,Hopping (one foot jumping),0.535818,0.33723682
+all-mpnet-base-v2,SA-DVAE,25,Reach into pocket,0.5578898,Touching other person's pocket,0.67374253,Pointing to something with finger,0.44833714,0.2254054
+all-mpnet-base-v2,SA-DVAE,26,Hopping (one foot jumping),0.47183192,Jumping up,0.6778367,Kicking something,0.535818,0.14201874
+all-mpnet-base-v2,SA-DVAE,27,Jumping up,0.490965,Hopping (one foot jumping),0.6778367,Standing up (from sitting position),0.6072656,0.070571125
+all-mpnet-base-v2,SA-DVAE,28,Make a phone call/Answer phone,0.6341727,Pickup,0.4106272,Playing with phone/tablet,0.3963363,0.014290899
+all-mpnet-base-v2,SA-DVAE,29,Playing with phone/tablet,0.58715785,Typing on a keyboard,0.4887833,Touching other person's pocket,0.40742603,0.08135727
+all-mpnet-base-v2,SA-DVAE,30,Typing on a keyboard,0.56928384,Writing,0.5722766,Playing with phone/tablet,0.4887833,0.08349329
+all-mpnet-base-v2,SA-DVAE,31,Pointing to something with finger,0.4081303,Pointing finger at the other person,0.78939146,Hand waving,0.645464,0.14392745
+all-mpnet-base-v2,SA-DVAE,32,Taking a selfie,0.7005449,Typing on a keyboard,0.32947052,Hugging other person,0.3021267,0.02734381
+all-mpnet-base-v2,SA-DVAE,33,Checking time (from watch),0.6985262,Wear a shoe,0.3128179,Take off glasses,0.30475956,0.008058339
+all-mpnet-base-v2,SA-DVAE,34,Rubbing two hands together,0.45247614,Putting the palms together,0.6071749,Handshaking,0.55166805,0.055506825
+all-mpnet-base-v2,SA-DVAE,35,Nod headbow,0.4065286,Salute,0.67931527,Shake head,0.6476642,0.03165108
+all-mpnet-base-v2,SA-DVAE,36,Shake head,0.4607628,Nod headbow,0.6476642,Hand waving,0.56141376,0.086250424
+all-mpnet-base-v2,SA-DVAE,37,Wiping face,0.62762374,Punching/Slapping other person,0.39727312,Take off glasses,0.38042524,0.016847879
+all-mpnet-base-v2,SA-DVAE,38,Salute,0.4086631,Nod headbow,0.67931527,Handshaking,0.6449542,0.034361064
+all-mpnet-base-v2,SA-DVAE,39,Putting the palms together,0.42954385,Clapping,0.6223774,Rubbing two hands together,0.6071749,0.015202522
+all-mpnet-base-v2,SA-DVAE,40,Crossing hands in front (saying stop),0.45223898,Hand waving,0.6487379,Handshaking,0.5664539,0.08228403
+all-mpnet-base-v2,SA-DVAE,41,Sneeze/cough,0.6832676,Wiping face,0.37303388,Nausea or vomiting,0.3432332,0.029800683
+all-mpnet-base-v2,SA-DVAE,42,Staggering,0.58185256,Falling,0.5498877,Shake head,0.43519807,0.11468965
+all-mpnet-base-v2,SA-DVAE,43,Falling,0.4838372,Drop,0.65597486,Staggering,0.5498877,0.10608715
+all-mpnet-base-v2,SA-DVAE,44,Touching head (headache),0.42284542,Touching neck (neckache),0.7472488,Touching back (backache),0.6004818,0.14676702
+all-mpnet-base-v2,SA-DVAE,45,Touching chest (stomachache/heart pain),0.45088434,Touching back (backache),0.613153,Touching neck (neckache),0.5978693,0.015283704
+all-mpnet-base-v2,SA-DVAE,46,Touching back (backache),0.39217502,Patting on back of other person,0.6676172,Touching neck (neckache),0.6585821,0.0090351105
+all-mpnet-base-v2,SA-DVAE,47,Touching neck (neckache),0.3938288,Touching head (headache),0.7472488,Touching back (backache),0.6585821,0.08866674
+all-mpnet-base-v2,SA-DVAE,48,Nausea or vomiting,0.68040997,Sneeze/cough,0.3432332,Staggering,0.33924538,0.003987819
+all-mpnet-base-v2,SA-DVAE,49,Using a fan (with hand or paper),0.6190615,Rubbing two hands together,0.41737488,Hand waving,0.38812953,0.029245347
+all-mpnet-base-v2,SA-DVAE,50,Punching/Slapping other person,0.43305683,Kicking other person,0.63432837,Patting on back of other person,0.5796634,0.05466497
+all-mpnet-base-v2,SA-DVAE,51,Kicking other person,0.38794088,Kicking something,0.8730548,Punching/Slapping other person,0.63432837,0.23872644
+all-mpnet-base-v2,SA-DVAE,52,Pushing other person,0.49298084,Kicking other person,0.5775258,Punching/Slapping other person,0.55825615,0.019269645
+all-mpnet-base-v2,SA-DVAE,53,Patting on back of other person,0.38686526,Touching back (backache),0.6676172,Hugging other person,0.6190981,0.048519075
+all-mpnet-base-v2,SA-DVAE,54,Pointing finger at the other person,0.44080007,Pointing to something with finger,0.78939146,Hand waving,0.52163047,0.267761
+all-mpnet-base-v2,SA-DVAE,55,Hugging other person,0.43096077,Patting on back of other person,0.6190981,Handshaking,0.61077416,0.008323967
+all-mpnet-base-v2,SA-DVAE,56,Giving something to other person,0.61364776,Hugging other person,0.41930008,Touching other person's pocket,0.39402148,0.025278598
+all-mpnet-base-v2,SA-DVAE,57,Touching other person's pocket,0.45642245,Reach into pocket,0.67374253,Patting on back of other person,0.54800737,0.12573516
+all-mpnet-base-v2,SA-DVAE,58,Handshaking,0.34594566,Hand waving,0.73824704,Clapping,0.678878,0.059369028
+all-mpnet-base-v2,SA-DVAE,59,Walking towards each other,0.47449058,Walking apart from each other,0.7228347,Hugging other person,0.49398303,0.22885168
+all-mpnet-base-v2,SA-DVAE,60,Walking apart from each other,0.52860445,Walking towards each other,0.7228347,Take off a shoe,0.4341992,0.2886355
+all-mpnet-base-v2,STAR,1,Drink water,0.39372838,Eat meal/snack,0.6257602,Brushing teeth,0.609609,0.01615119
+all-mpnet-base-v2,STAR,2,Eat meal/snack,0.34164035,Sitting down,0.6952344,Pickup,0.65641403,0.038820386
+all-mpnet-base-v2,STAR,3,Brushing teeth,0.37732422,Brushing hair,0.790357,Drink water,0.609609,0.18074799
+all-mpnet-base-v2,STAR,4,Brushing hair,0.34292698,Brushing teeth,0.790357,Pickup,0.63702005,0.15333694
+all-mpnet-base-v2,STAR,5,Drop,0.28620893,Falling,0.87336767,Pickup,0.6852182,0.18814945
+all-mpnet-base-v2,STAR,6,Pickup,0.26595515,Standing up (from sitting position),0.824697,Giving something to other person,0.7264972,0.098199844
+all-mpnet-base-v2,STAR,7,Throw,0.32851136,Kicking other person,0.71439266,Kicking something,0.68152285,0.032869816
+all-mpnet-base-v2,STAR,8,Sitting down,0.29941618,Standing up (from sitting position),0.7437788,Putting the palms together,0.70642006,0.03735876
+all-mpnet-base-v2,STAR,9,Standing up (from sitting position),0.23564768,Pickup,0.824697,Pushing other person,0.7834447,0.041252315
+all-mpnet-base-v2,STAR,10,Clapping,0.34541333,Handshaking,0.7203532,Hand waving,0.68829143,0.032061756
+all-mpnet-base-v2,STAR,11,Reading,0.35292697,Writing,0.73472285,Typing on a keyboard,0.68068683,0.05403602
+all-mpnet-base-v2,STAR,12,Writing,0.2946282,Typing on a keyboard,0.8044191,Reading,0.73472285,0.06969625
+all-mpnet-base-v2,STAR,13,Tear up paper,0.41707456,Writing,0.6069562,Standing up (from sitting position),0.59572434,0.01123184
+all-mpnet-base-v2,STAR,14,Wear jacket,0.32455146,Take off jacket,0.79584706,Wear a shoe,0.69832075,0.09752631
+all-mpnet-base-v2,STAR,15,Take off jacket,0.34198248,Wear jacket,0.79584706,Take off a hat/cap,0.69280124,0.10304582
+all-mpnet-base-v2,STAR,16,Wear a shoe,0.29822046,Take off a shoe,0.7845533,Put on a hat/cap,0.7168104,0.067742884
+all-mpnet-base-v2,STAR,17,Take off a shoe,0.29963255,Wear a shoe,0.7845533,Take off a hat/cap,0.7231831,0.061370194
+all-mpnet-base-v2,STAR,18,Wear on glasses,0.3258481,Take off glasses,0.7977428,Put on a hat/cap,0.6838223,0.11392051
+all-mpnet-base-v2,STAR,19,Take off glasses,0.34181744,Wear on glasses,0.7977428,Take off a hat/cap,0.68385106,0.11389172
+all-mpnet-base-v2,STAR,20,Put on a hat/cap,0.3070631,Take off a hat/cap,0.7836268,Wear a shoe,0.7168104,0.06681639
+all-mpnet-base-v2,STAR,21,Take off a hat/cap,0.30460298,Put on a hat/cap,0.7836268,Take off a shoe,0.7231831,0.0604437
+all-mpnet-base-v2,STAR,22,Cheer up,0.42668605,Hand waving,0.6135383,Clapping,0.6075399,0.0059984326
+all-mpnet-base-v2,STAR,23,Hand waving,0.28661323,Handshaking,0.8078491,Shake head,0.71161354,0.09623557
+all-mpnet-base-v2,STAR,24,Kicking something,0.25393867,Kicking other person,0.94735074,Punching/Slapping other person,0.7203052,0.22704554
+all-mpnet-base-v2,STAR,25,Reach into pocket,0.30258888,Touching other person's pocket,0.9240508,Pickup,0.66637844,0.25767237
+all-mpnet-base-v2,STAR,26,Hopping (one foot jumping),0.2731939,Jumping up,0.8266597,Kicking other person,0.71686006,0.10979962
+all-mpnet-base-v2,STAR,27,Jumping up,0.2889188,Hopping (one foot jumping),0.8266597,Standing up (from sitting position),0.72900784,0.09765184
+all-mpnet-base-v2,STAR,28,Make a phone call/Answer phone,0.40565908,Playing with phone/tablet,0.7194206,Taking a selfie,0.5683753,0.15104532
+all-mpnet-base-v2,STAR,29,Playing with phone/tablet,0.31500983,Typing on a keyboard,0.73872524,Make a phone call/Answer phone,0.7194206,0.019304633
+all-mpnet-base-v2,STAR,30,Typing on a keyboard,0.27725154,Writing,0.8044191,Playing with phone/tablet,0.73872524,0.065693855
+all-mpnet-base-v2,STAR,31,Pointing to something with finger,0.24811524,Pointing finger at the other person,0.95162416,Pickup,0.7183716,0.23325253
+all-mpnet-base-v2,STAR,32,Taking a selfie,0.39616567,Playing with phone/tablet,0.6487389,Putting the palms together,0.629035,0.019703925
+all-mpnet-base-v2,STAR,33,Checking time (from watch),0.38806182,Crossing hands in front (saying stop),0.62099636,Putting the palms together,0.62031126,0.0006850958
+all-mpnet-base-v2,STAR,34,Rubbing two hands together,0.27864027,Putting the palms together,0.7785424,Handshaking,0.7122702,0.0662722
+all-mpnet-base-v2,STAR,35,Nod headbow,0.33124518,Shake head,0.69667655,Pointing finger at the other person,0.6838944,0.0127821565
+all-mpnet-base-v2,STAR,36,Shake head,0.28195566,Handshaking,0.7615563,Putting the palms together,0.72426987,0.03728646
+all-mpnet-base-v2,STAR,37,Wiping face,0.3812266,Rubbing two hands together,0.6513393,Putting the palms together,0.62423456,0.027104735
+all-mpnet-base-v2,STAR,38,Salute,0.3483861,Hand waving,0.6857896,Handshaking,0.68575066,3.8921833e-05
+all-mpnet-base-v2,STAR,39,Putting the palms together,0.22701097,Crossing hands in front (saying stop),0.8492954,Rubbing two hands together,0.7785424,0.07075298
+all-mpnet-base-v2,STAR,40,Crossing hands in front (saying stop),0.2665382,Putting the palms together,0.8492954,Pointing finger at the other person,0.7187875,0.13050789
+all-mpnet-base-v2,STAR,41,Sneeze/cough,0.37727726,Nausea or vomiting,0.6423797,Putting the palms together,0.6326302,0.009749472
+all-mpnet-base-v2,STAR,42,Staggering,0.30761462,Falling,0.8214007,Shake head,0.68918836,0.13221234
+all-mpnet-base-v2,STAR,43,Falling,0.27589732,Drop,0.87336767,Staggering,0.8214007,0.051966965
+all-mpnet-base-v2,STAR,44,Touching head (headache),0.30247957,Touching neck (neckache),0.7579479,Touching back (backache),0.7221221,0.03582585
+all-mpnet-base-v2,STAR,45,Touching chest (stomachache/heart pain),0.32413942,Touching back (backache),0.7269222,Touching neck (neckache),0.719768,0.0071542263
+all-mpnet-base-v2,STAR,46,Touching back (backache),0.3003387,Touching neck (neckache),0.7596416,Touching chest (stomachache/heart pain),0.7269222,0.032719374
+all-mpnet-base-v2,STAR,47,Touching neck (neckache),0.32951647,Touching back (backache),0.7596416,Touching head (headache),0.7579479,0.001693666
+all-mpnet-base-v2,STAR,48,Nausea or vomiting,0.36617935,Touching head (headache),0.64447093,Sneeze/cough,0.6423797,0.002091229
+all-mpnet-base-v2,STAR,49,Using a fan (with hand or paper),0.43039584,Brushing hair,0.58675885,Shake head,0.56922936,0.017529488
+all-mpnet-base-v2,STAR,50,Punching/Slapping other person,0.31641608,Kicking other person,0.7284031,Kicking something,0.7203052,0.008097887
+all-mpnet-base-v2,STAR,51,Kicking other person,0.24297237,Kicking something,0.94735074,Punching/Slapping other person,0.7284031,0.21894765
+all-mpnet-base-v2,STAR,52,Pushing other person,0.30522448,Standing up (from sitting position),0.7834447,Kicking other person,0.6781315,0.10531318
+all-mpnet-base-v2,STAR,53,Patting on back of other person,0.344783,Hugging other person,0.6973763,Rubbing two hands together,0.6959216,0.001454711
+all-mpnet-base-v2,STAR,54,Pointing finger at the other person,0.24362409,Pointing to something with finger,0.95162416,Putting the palms together,0.74319446,0.2084297
+all-mpnet-base-v2,STAR,55,Hugging other person,0.33447617,Rubbing two hands together,0.70842385,Patting on back of other person,0.6973763,0.011047542
+all-mpnet-base-v2,STAR,56,Giving something to other person,0.3482669,Pickup,0.7264972,Handshaking,0.6431805,0.083316684
+all-mpnet-base-v2,STAR,57,Touching other person's pocket,0.29951346,Reach into pocket,0.9240508,Pickup,0.65473795,0.26931286
+all-mpnet-base-v2,STAR,58,Handshaking,0.24897826,Hand waving,0.8078491,Shake head,0.7615563,0.04629278
+all-mpnet-base-v2,STAR,59,Walking towards each other,0.29349273,Walking apart from each other,0.87245065,Hopping (one foot jumping),0.70713866,0.16531199
+all-mpnet-base-v2,STAR,60,Walking apart from each other,0.29040265,Walking towards each other,0.87245065,Standing up (from sitting position),0.69266,0.17979068
+stsb-bert-large,Name,1,Drink water,0.6119696,Nod headbow,0.4072206,Shake head,0.40554845,0.0016721487
+stsb-bert-large,Name,2,Eat meal/snack,0.72381526,Sitting down,0.38582957,Giving something to other person,0.34012854,0.045701027
+stsb-bert-large,Name,3,Brushing teeth,0.58230156,Brushing hair,0.54065,Wiping face,0.5201006,0.020549417
+stsb-bert-large,Name,4,Brushing hair,0.60638595,Brushing teeth,0.54065,Wiping face,0.41665918,0.123990834
+stsb-bert-large,Name,5,Drop,0.5362539,Falling,0.55811703,Throw,0.47209853,0.0860185
+stsb-bert-large,Name,6,Pickup,0.6877693,Kicking something,0.32940796,Clapping,0.3250531,0.0043548644
+stsb-bert-large,Name,7,Throw,0.5163322,Falling,0.5694368,Staggering,0.473541,0.0958958
+stsb-bert-large,Name,8,Sitting down,0.66385126,Eat meal/snack,0.38582957,Putting the palms together,0.34372315,0.04210642
+stsb-bert-large,Name,9,Standing up (from sitting position),0.5357407,Jumping up,0.7077044,Staggering,0.42779505,0.27990937
+stsb-bert-large,Name,10,Clapping,0.46825564,Salute,0.56295645,Hand waving,0.5612627,0.0016937256
+stsb-bert-large,Name,11,Reading,0.6377729,Writing,0.61178994,Sitting down,0.32945725,0.2823327
+stsb-bert-large,Name,12,Writing,0.58092177,Reading,0.61178994,Using a fan (with hand or paper),0.42087573,0.19091421
+stsb-bert-large,Name,13,Tear up paper,0.59947336,Throw,0.44003832,Wiping face,0.41649207,0.023546249
+stsb-bert-large,Name,14,Wear jacket,0.51506495,Put on a hat/cap,0.61253065,Wear on glasses,0.54539967,0.06713098
+stsb-bert-large,Name,15,Take off jacket,0.41949904,Take off a hat/cap,0.7812177,Take off glasses,0.6756753,0.10554242
+stsb-bert-large,Name,16,Wear a shoe,0.511346,Take off a shoe,0.7103954,Kicking something,0.51632625,0.19406915
+stsb-bert-large,Name,17,Take off a shoe,0.426309,Wear a shoe,0.7103954,Take off a hat/cap,0.60093355,0.109461844
+stsb-bert-large,Name,18,Wear on glasses,0.5429271,Put on a hat/cap,0.5596858,Wear jacket,0.54539967,0.0142861605
+stsb-bert-large,Name,19,Take off glasses,0.4426511,Take off jacket,0.6756753,Take off a hat/cap,0.6479213,0.02775395
+stsb-bert-large,Name,20,Put on a hat/cap,0.48232454,Wear jacket,0.61253065,Take off a hat/cap,0.60196424,0.010566413
+stsb-bert-large,Name,21,Take off a hat/cap,0.39368182,Take off jacket,0.7812177,Take off glasses,0.6479213,0.13329637
+stsb-bert-large,Name,22,Cheer up,0.5587341,Clapping,0.5539674,Jumping up,0.514557,0.039410412
+stsb-bert-large,Name,23,Hand waving,0.49494332,Clapping,0.5612627,Rubbing two hands together,0.52898175,0.03228098
+stsb-bert-large,Name,24,Kicking something,0.45052904,Kicking other person,0.7846591,Pushing other person,0.53254646,0.25211263
+stsb-bert-large,Name,25,Reach into pocket,0.49661368,Touching other person's pocket,0.7986839,Handshaking,0.5505843,0.24809957
+stsb-bert-large,Name,26,Hopping (one foot jumping),0.5895065,Jumping up,0.490903,Falling,0.46543878,0.025464207
+stsb-bert-large,Name,27,Jumping up,0.4675148,Standing up (from sitting position),0.7077044,Staggering,0.53444904,0.17325538
+stsb-bert-large,Name,28,Make a phone call/Answer phone,0.7224817,Playing with phone/tablet,0.35979083,Walking towards each other,0.2809077,0.07888314
+stsb-bert-large,Name,29,Playing with phone/tablet,0.68359035,Make a phone call/Answer phone,0.35979083,Pointing to something with finger,0.32230088,0.03748995
+stsb-bert-large,Name,30,Typing on a keyboard,0.72512823,Writing,0.3584058,Checking time (from watch),0.2690327,0.08937311
+stsb-bert-large,Name,31,Pointing to something with finger,0.5853383,Pointing finger at the other person,0.6518904,Walking towards each other,0.36275503,0.28913537
+stsb-bert-large,Name,32,Taking a selfie,0.7561625,Walking towards each other,0.25541914,Wear a shoe,0.24896353,0.0064556003
+stsb-bert-large,Name,33,Checking time (from watch),0.7083111,Wear on glasses,0.3668439,Reading,0.29089156,0.07595235
+stsb-bert-large,Name,34,Rubbing two hands together,0.4519443,Putting the palms together,0.6580126,Handshaking,0.6334062,0.024606407
+stsb-bert-large,Name,35,Nod headbow,0.53167,Shake head,0.56866074,Salute,0.51675534,0.051905394
+stsb-bert-large,Name,36,Shake head,0.51174986,Nod headbow,0.56866074,Staggering,0.4877272,0.08093354
+stsb-bert-large,Name,37,Wiping face,0.56470436,Brushing teeth,0.5201006,Sneeze/cough,0.45185775,0.06824285
+stsb-bert-large,Name,38,Salute,0.5199534,Clapping,0.56295645,Nod headbow,0.51675534,0.04620111
+stsb-bert-large,Name,39,Putting the palms together,0.5226322,Rubbing two hands together,0.6580126,Handshaking,0.5157553,0.14225733
+stsb-bert-large,Name,40,Crossing hands in front (saying stop),0.5779246,Handshaking,0.46148044,Rubbing two hands together,0.4409848,0.020495653
+stsb-bert-large,Name,41,Sneeze/cough,0.60610414,Nausea or vomiting,0.5305924,Wiping face,0.45185775,0.07873464
+stsb-bert-large,Name,42,Staggering,0.51044506,Jumping up,0.53444904,Shake head,0.4877272,0.046721846
+stsb-bert-large,Name,43,Falling,0.512601,Throw,0.5694368,Drop,0.55811703,0.0113197565
+stsb-bert-large,Name,44,Touching head (headache),0.63735694,Touching back (backache),0.4292348,Touching neck (neckache),0.38118804,0.048046768
+stsb-bert-large,Name,45,Touching chest (stomachache/heart pain),0.6789606,Touching back (backache),0.3331253,Touching neck (neckache),0.33004063,0.0030846596
+stsb-bert-large,Name,46,Touching back (backache),0.58941156,Patting on back of other person,0.5523969,Touching head (headache),0.4292348,0.12316209
+stsb-bert-large,Name,47,Touching neck (neckache),0.643134,Touching back (backache),0.41546136,Touching head (headache),0.38118804,0.034273326
+stsb-bert-large,Name,48,Nausea or vomiting,0.5834375,Sneeze/cough,0.5305924,Throw,0.4208566,0.10973579
+stsb-bert-large,Name,49,Using a fan (with hand or paper),0.5765072,Hand waving,0.4659884,Putting the palms together,0.42326775,0.042720646
+stsb-bert-large,Name,50,Punching/Slapping other person,0.56668985,Pushing other person,0.5640315,Kicking other person,0.56183636,0.0021951199
+stsb-bert-large,Name,51,Kicking other person,0.4062575,Kicking something,0.7846591,Pushing other person,0.7320046,0.052654505
+stsb-bert-large,Name,52,Pushing other person,0.43786633,Kicking other person,0.7320046,Punching/Slapping other person,0.5640315,0.1679731
+stsb-bert-large,Name,53,Patting on back of other person,0.43140292,Hugging other person,0.7513628,Touching back (backache),0.5523969,0.1989659
+stsb-bert-large,Name,54,Pointing finger at the other person,0.50513524,Pointing to something with finger,0.6518904,Pushing other person,0.5146579,0.13723248
+stsb-bert-large,Name,55,Hugging other person,0.45471615,Patting on back of other person,0.7513628,Giving something to other person,0.54798704,0.20337576
+stsb-bert-large,Name,56,Giving something to other person,0.50922704,Hugging other person,0.54798704,Patting on back of other person,0.5275551,0.020431936
+stsb-bert-large,Name,57,Touching other person's pocket,0.4520123,Reach into pocket,0.7986839,Handshaking,0.5507731,0.2479108
+stsb-bert-large,Name,58,Handshaking,0.44525492,Rubbing two hands together,0.6334062,Touching other person's pocket,0.5507731,0.08263314
+stsb-bert-large,Name,59,Walking towards each other,0.6102254,Salute,0.45291677,Jumping up,0.41266015,0.04025662
+stsb-bert-large,Name,60,Walking apart from each other,0.5600548,Take off glasses,0.5258942,Take off a shoe,0.46745148,0.05844274
+stsb-bert-large,PGFA,1,Drink water,0.55571806,Nod headbow,0.48726767,Sneeze/cough,0.47448644,0.012781233
+stsb-bert-large,PGFA,2,Eat meal/snack,0.6779999,Cheer up,0.38724416,Drink water,0.36516768,0.022076488
+stsb-bert-large,PGFA,3,Brushing teeth,0.5461134,Wiping face,0.58123624,Brushing hair,0.47913796,0.102098286
+stsb-bert-large,PGFA,4,Brushing hair,0.5980121,Brushing teeth,0.47913796,Take off a hat/cap,0.40456608,0.07457188
+stsb-bert-large,PGFA,5,Drop,0.47120994,Falling,0.7496043,Sitting down,0.50648046,0.24312383
+stsb-bert-large,PGFA,6,Pickup,0.53548664,Throw,0.49933285,Standing up (from sitting position),0.488151,0.011181831
+stsb-bert-large,PGFA,7,Throw,0.51277894,Pointing to something with finger,0.5354067,Pushing other person,0.53408545,0.0013212562
+stsb-bert-large,PGFA,8,Sitting down,0.50586784,Standing up (from sitting position),0.66559076,Drop,0.50648046,0.15911031
+stsb-bert-large,PGFA,9,Standing up (from sitting position),0.41882783,Sitting down,0.66559076,Jumping up,0.6557826,0.009808183
+stsb-bert-large,PGFA,10,Clapping,0.3792832,Putting the palms together,0.7283366,Handshaking,0.6298042,0.09853238
+stsb-bert-large,PGFA,11,Reading,0.5892729,Writing,0.6682484,Typing on a keyboard,0.39596575,0.27228266
+stsb-bert-large,PGFA,12,Writing,0.5053693,Reading,0.6682484,Typing on a keyboard,0.6093179,0.058930516
+stsb-bert-large,PGFA,13,Tear up paper,0.615566,Take off glasses,0.44533867,Take off a shoe,0.3820139,0.06332478
+stsb-bert-large,PGFA,14,Wear jacket,0.5503128,Touching other person's pocket,0.5211994,Put on a hat/cap,0.474055,0.047144413
+stsb-bert-large,PGFA,15,Take off jacket,0.47697407,Take off a hat/cap,0.66319567,Take off glasses,0.564358,0.09883767
+stsb-bert-large,PGFA,16,Wear a shoe,0.5716722,Take off a shoe,0.5634861,Kicking something,0.4596805,0.1038056
+stsb-bert-large,PGFA,17,Take off a shoe,0.47639048,Take off glasses,0.58754474,Take off a hat/cap,0.57269096,0.0148537755
+stsb-bert-large,PGFA,18,Wear on glasses,0.550947,Put on a hat/cap,0.62538975,Wiping face,0.4360115,0.18937826
+stsb-bert-large,PGFA,19,Take off glasses,0.45941782,Take off a hat/cap,0.58920324,Take off a shoe,0.58754474,0.0016584992
+stsb-bert-large,PGFA,20,Put on a hat/cap,0.508323,Wear on glasses,0.62538975,Using a fan (with hand or paper),0.49180335,0.1335864
+stsb-bert-large,PGFA,21,Take off a hat/cap,0.4498273,Take off jacket,0.66319567,Take off glasses,0.58920324,0.07399243
+stsb-bert-large,PGFA,22,Cheer up,0.60284543,Clapping,0.41618252,Hugging other person,0.4036715,0.012511015
+stsb-bert-large,PGFA,23,Hand waving,0.4738148,Handshaking,0.5639653,Salute,0.5572677,0.006697595
+stsb-bert-large,PGFA,24,Kicking something,0.42576462,Kicking other person,0.81639093,Hopping (one foot jumping),0.60150284,0.2148881
+stsb-bert-large,PGFA,25,Reach into pocket,0.5192576,Touching other person's pocket,0.71849793,Handshaking,0.44134212,0.27715582
+stsb-bert-large,PGFA,26,Hopping (one foot jumping),0.45466983,Jumping up,0.62283605,Kicking something,0.60150284,0.021333218
+stsb-bert-large,PGFA,27,Jumping up,0.50442183,Standing up (from sitting position),0.6557826,Hopping (one foot jumping),0.62283605,0.032946527
+stsb-bert-large,PGFA,28,Make a phone call/Answer phone,0.66402656,Playing with phone/tablet,0.50722516,Walking towards each other,0.3062401,0.20098504
+stsb-bert-large,PGFA,29,Playing with phone/tablet,0.5614753,Make a phone call/Answer phone,0.50722516,Typing on a keyboard,0.504834,0.0023911595
+stsb-bert-large,PGFA,30,Typing on a keyboard,0.55213976,Writing,0.6093179,Playing with phone/tablet,0.504834,0.1044839
+stsb-bert-large,PGFA,31,Pointing to something with finger,0.49985468,Throw,0.5354067,Pointing finger at the other person,0.51248175,0.02292496
+stsb-bert-large,PGFA,32,Taking a selfie,0.6870079,Handshaking,0.32780397,Playing with phone/tablet,0.3266735,0.0011304617
+stsb-bert-large,PGFA,33,Checking time (from watch),0.6493627,Typing on a keyboard,0.3764655,Reach into pocket,0.35141265,0.025052845
+stsb-bert-large,PGFA,34,Rubbing two hands together,0.4619847,Putting the palms together,0.57902473,Patting on back of other person,0.5585193,0.020505428
+stsb-bert-large,PGFA,35,Nod headbow,0.46404505,Salute,0.6204051,Handshaking,0.61854184,0.0018632412
+stsb-bert-large,PGFA,36,Shake head,0.50406796,Crossing hands in front (saying stop),0.5632816,Pointing finger at the other person,0.54239035,0.02089125
+stsb-bert-large,PGFA,37,Wiping face,0.5025304,Brushing teeth,0.58123624,Sneeze/cough,0.565926,0.015310228
+stsb-bert-large,PGFA,38,Salute,0.3482855,Handshaking,0.7787703,Putting the palms together,0.7001977,0.07857263
+stsb-bert-large,PGFA,39,Putting the palms together,0.33805817,Handshaking,0.7530523,Clapping,0.7283366,0.024715722
+stsb-bert-large,PGFA,40,Crossing hands in front (saying stop),0.5266994,Shake head,0.5632816,Putting the palms together,0.48907596,0.07420564
+stsb-bert-large,PGFA,41,Sneeze/cough,0.48738176,Nausea or vomiting,0.6751331,Wiping face,0.565926,0.10920709
+stsb-bert-large,PGFA,42,Staggering,0.5052357,Falling,0.6142266,Shake head,0.5099661,0.104260504
+stsb-bert-large,PGFA,43,Falling,0.4579172,Drop,0.7496043,Staggering,0.6142266,0.1353777
+stsb-bert-large,PGFA,44,Touching head (headache),0.4129032,Touching neck (neckache),0.822592,Touching back (backache),0.6753062,0.14728582
+stsb-bert-large,PGFA,45,Touching chest (stomachache/heart pain),0.52558583,Hugging other person,0.53383124,Touching neck (neckache),0.4867543,0.04707694
+stsb-bert-large,PGFA,46,Touching back (backache),0.45063227,Touching head (headache),0.6753062,Touching neck (neckache),0.6019526,0.07335359
+stsb-bert-large,PGFA,47,Touching neck (neckache),0.43176597,Touching head (headache),0.822592,Touching back (backache),0.6019526,0.22063941
+stsb-bert-large,PGFA,48,Nausea or vomiting,0.53337073,Sneeze/cough,0.6751331,Staggering,0.44997105,0.22516206
+stsb-bert-large,PGFA,49,Using a fan (with hand or paper),0.54558027,Rubbing two hands together,0.53163487,Put on a hat/cap,0.49180335,0.03983152
+stsb-bert-large,PGFA,50,Punching/Slapping other person,0.4849348,Kicking other person,0.6360256,Pushing other person,0.60172457,0.034301043
+stsb-bert-large,PGFA,51,Kicking other person,0.38757265,Kicking something,0.81639093,Pushing other person,0.6601861,0.15620482
+stsb-bert-large,PGFA,52,Pushing other person,0.40949762,Kicking other person,0.6601861,Punching/Slapping other person,0.60172457,0.058461547
+stsb-bert-large,PGFA,53,Patting on back of other person,0.4189275,Hugging other person,0.62082,Clapping,0.5998972,0.02092278
+stsb-bert-large,PGFA,54,Pointing finger at the other person,0.4576596,Pushing other person,0.58486164,Punching/Slapping other person,0.5495355,0.035326123
+stsb-bert-large,PGFA,55,Hugging other person,0.44248343,Patting on back of other person,0.62082,Handshaking,0.6013874,0.019432604
+stsb-bert-large,PGFA,56,Giving something to other person,0.5909026,Handshaking,0.4338781,Hand waving,0.42493787,0.00894022
+stsb-bert-large,PGFA,57,Touching other person's pocket,0.50900066,Reach into pocket,0.71849793,Wear jacket,0.5211994,0.19729853
+stsb-bert-large,PGFA,58,Handshaking,0.3236888,Salute,0.7787703,Putting the palms together,0.7530523,0.025718033
+stsb-bert-large,PGFA,59,Walking towards each other,0.48657972,Pushing other person,0.5468063,Standing up (from sitting position),0.5420672,0.004739046
+stsb-bert-large,PGFA,60,Walking apart from each other,0.5486214,Walking towards each other,0.4774119,Take off jacket,0.46750686,0.00990504
+stsb-bert-large,SMIE,1,Drink water,0.55571806,Nod headbow,0.48726767,Sneeze/cough,0.47448644,0.012781233
+stsb-bert-large,SMIE,2,Eat meal/snack,0.6779999,Cheer up,0.38724416,Drink water,0.36516768,0.022076488
+stsb-bert-large,SMIE,3,Brushing teeth,0.5461134,Wiping face,0.58123624,Brushing hair,0.47913796,0.102098286
+stsb-bert-large,SMIE,4,Brushing hair,0.5980121,Brushing teeth,0.47913796,Take off a hat/cap,0.40456608,0.07457188
+stsb-bert-large,SMIE,5,Drop,0.47120994,Falling,0.7496043,Sitting down,0.50648046,0.24312383
+stsb-bert-large,SMIE,6,Pickup,0.53548664,Throw,0.49933285,Standing up (from sitting position),0.488151,0.011181831
+stsb-bert-large,SMIE,7,Throw,0.51277894,Pointing to something with finger,0.5354067,Pushing other person,0.53408545,0.0013212562
+stsb-bert-large,SMIE,8,Sitting down,0.50586784,Standing up (from sitting position),0.66559076,Drop,0.50648046,0.15911031
+stsb-bert-large,SMIE,9,Standing up (from sitting position),0.41882783,Sitting down,0.66559076,Jumping up,0.6557826,0.009808183
+stsb-bert-large,SMIE,10,Clapping,0.3792832,Putting the palms together,0.7283366,Handshaking,0.6298042,0.09853238
+stsb-bert-large,SMIE,11,Reading,0.5892729,Writing,0.6682484,Typing on a keyboard,0.39596575,0.27228266
+stsb-bert-large,SMIE,12,Writing,0.5053693,Reading,0.6682484,Typing on a keyboard,0.6093179,0.058930516
+stsb-bert-large,SMIE,13,Tear up paper,0.615566,Take off glasses,0.44533867,Take off a shoe,0.3820139,0.06332478
+stsb-bert-large,SMIE,14,Wear jacket,0.5503128,Touching other person's pocket,0.5211994,Put on a hat/cap,0.474055,0.047144413
+stsb-bert-large,SMIE,15,Take off jacket,0.47697407,Take off a hat/cap,0.66319567,Take off glasses,0.564358,0.09883767
+stsb-bert-large,SMIE,16,Wear a shoe,0.5716722,Take off a shoe,0.5634861,Kicking something,0.4596805,0.1038056
+stsb-bert-large,SMIE,17,Take off a shoe,0.47639048,Take off glasses,0.58754474,Take off a hat/cap,0.57269096,0.0148537755
+stsb-bert-large,SMIE,18,Wear on glasses,0.550947,Put on a hat/cap,0.62538975,Wiping face,0.4360115,0.18937826
+stsb-bert-large,SMIE,19,Take off glasses,0.45941782,Take off a hat/cap,0.58920324,Take off a shoe,0.58754474,0.0016584992
+stsb-bert-large,SMIE,20,Put on a hat/cap,0.508323,Wear on glasses,0.62538975,Using a fan (with hand or paper),0.49180335,0.1335864
+stsb-bert-large,SMIE,21,Take off a hat/cap,0.4498273,Take off jacket,0.66319567,Take off glasses,0.58920324,0.07399243
+stsb-bert-large,SMIE,22,Cheer up,0.60284543,Clapping,0.41618252,Hugging other person,0.4036715,0.012511015
+stsb-bert-large,SMIE,23,Hand waving,0.4738148,Handshaking,0.5639653,Salute,0.5572677,0.006697595
+stsb-bert-large,SMIE,24,Kicking something,0.42576462,Kicking other person,0.81639093,Hopping (one foot jumping),0.60150284,0.2148881
+stsb-bert-large,SMIE,25,Reach into pocket,0.5192576,Touching other person's pocket,0.71849793,Handshaking,0.44134212,0.27715582
+stsb-bert-large,SMIE,26,Hopping (one foot jumping),0.45466983,Jumping up,0.62283605,Kicking something,0.60150284,0.021333218
+stsb-bert-large,SMIE,27,Jumping up,0.50442183,Standing up (from sitting position),0.6557826,Hopping (one foot jumping),0.62283605,0.032946527
+stsb-bert-large,SMIE,28,Make a phone call/Answer phone,0.66402656,Playing with phone/tablet,0.50722516,Walking towards each other,0.3062401,0.20098504
+stsb-bert-large,SMIE,29,Playing with phone/tablet,0.5614753,Make a phone call/Answer phone,0.50722516,Typing on a keyboard,0.504834,0.0023911595
+stsb-bert-large,SMIE,30,Typing on a keyboard,0.55213976,Writing,0.6093179,Playing with phone/tablet,0.504834,0.1044839
+stsb-bert-large,SMIE,31,Pointing to something with finger,0.49985468,Throw,0.5354067,Pointing finger at the other person,0.51248175,0.02292496
+stsb-bert-large,SMIE,32,Taking a selfie,0.6870079,Handshaking,0.32780397,Playing with phone/tablet,0.3266735,0.0011304617
+stsb-bert-large,SMIE,33,Checking time (from watch),0.6493627,Typing on a keyboard,0.3764655,Reach into pocket,0.35141265,0.025052845
+stsb-bert-large,SMIE,34,Rubbing two hands together,0.4619847,Putting the palms together,0.57902473,Patting on back of other person,0.5585193,0.020505428
+stsb-bert-large,SMIE,35,Nod headbow,0.46404505,Salute,0.6204051,Handshaking,0.61854184,0.0018632412
+stsb-bert-large,SMIE,36,Shake head,0.50406796,Crossing hands in front (saying stop),0.5632816,Pointing finger at the other person,0.54239035,0.02089125
+stsb-bert-large,SMIE,37,Wiping face,0.5025304,Brushing teeth,0.58123624,Sneeze/cough,0.565926,0.015310228
+stsb-bert-large,SMIE,38,Salute,0.3482855,Handshaking,0.7787703,Putting the palms together,0.7001977,0.07857263
+stsb-bert-large,SMIE,39,Putting the palms together,0.33805817,Handshaking,0.7530523,Clapping,0.7283366,0.024715722
+stsb-bert-large,SMIE,40,Crossing hands in front (saying stop),0.5266994,Shake head,0.5632816,Putting the palms together,0.48907596,0.07420564
+stsb-bert-large,SMIE,41,Sneeze/cough,0.48738176,Nausea or vomiting,0.6751331,Wiping face,0.565926,0.10920709
+stsb-bert-large,SMIE,42,Staggering,0.5052357,Falling,0.6142266,Shake head,0.5099661,0.104260504
+stsb-bert-large,SMIE,43,Falling,0.4579172,Drop,0.7496043,Staggering,0.6142266,0.1353777
+stsb-bert-large,SMIE,44,Touching head (headache),0.4129032,Touching neck (neckache),0.822592,Touching back (backache),0.6753062,0.14728582
+stsb-bert-large,SMIE,45,Touching chest (stomachache/heart pain),0.52558583,Hugging other person,0.53383124,Touching neck (neckache),0.4867543,0.04707694
+stsb-bert-large,SMIE,46,Touching back (backache),0.45063227,Touching head (headache),0.6753062,Touching neck (neckache),0.6019526,0.07335359
+stsb-bert-large,SMIE,47,Touching neck (neckache),0.43176597,Touching head (headache),0.822592,Touching back (backache),0.6019526,0.22063941
+stsb-bert-large,SMIE,48,Nausea or vomiting,0.53337073,Sneeze/cough,0.6751331,Staggering,0.44997105,0.22516206
+stsb-bert-large,SMIE,49,Using a fan (with hand or paper),0.54558027,Rubbing two hands together,0.53163487,Put on a hat/cap,0.49180335,0.03983152
+stsb-bert-large,SMIE,50,Punching/Slapping other person,0.4849348,Kicking other person,0.6360256,Pushing other person,0.60172457,0.034301043
+stsb-bert-large,SMIE,51,Kicking other person,0.38757265,Kicking something,0.81639093,Pushing other person,0.6601861,0.15620482
+stsb-bert-large,SMIE,52,Pushing other person,0.40949762,Kicking other person,0.6601861,Punching/Slapping other person,0.60172457,0.058461547
+stsb-bert-large,SMIE,53,Patting on back of other person,0.4189275,Hugging other person,0.62082,Clapping,0.5998972,0.02092278
+stsb-bert-large,SMIE,54,Pointing finger at the other person,0.4576596,Pushing other person,0.58486164,Punching/Slapping other person,0.5495355,0.035326123
+stsb-bert-large,SMIE,55,Hugging other person,0.44248343,Patting on back of other person,0.62082,Handshaking,0.6013874,0.019432604
+stsb-bert-large,SMIE,56,Giving something to other person,0.5909026,Handshaking,0.4338781,Hand waving,0.42493787,0.00894022
+stsb-bert-large,SMIE,57,Touching other person's pocket,0.50900066,Reach into pocket,0.71849793,Wear jacket,0.5211994,0.19729853
+stsb-bert-large,SMIE,58,Handshaking,0.3236888,Salute,0.7787703,Putting the palms together,0.7530523,0.025718033
+stsb-bert-large,SMIE,59,Walking towards each other,0.48657972,Pushing other person,0.5468063,Standing up (from sitting position),0.5420672,0.004739046
+stsb-bert-large,SMIE,60,Walking apart from each other,0.5486214,Walking towards each other,0.4774119,Take off jacket,0.46750686,0.00990504
+stsb-bert-large,SA-DVAE,1,Drink water,0.55571806,Nod headbow,0.48726767,Sneeze/cough,0.47448644,0.012781233
+stsb-bert-large,SA-DVAE,2,Eat meal/snack,0.6779999,Cheer up,0.38724416,Drink water,0.36516768,0.022076488
+stsb-bert-large,SA-DVAE,3,Brushing teeth,0.5461134,Wiping face,0.58123624,Brushing hair,0.47913796,0.102098286
+stsb-bert-large,SA-DVAE,4,Brushing hair,0.5980121,Brushing teeth,0.47913796,Take off a hat/cap,0.40456608,0.07457188
+stsb-bert-large,SA-DVAE,5,Drop,0.47120994,Falling,0.7496043,Sitting down,0.50648046,0.24312383
+stsb-bert-large,SA-DVAE,6,Pickup,0.53548664,Throw,0.49933285,Standing up (from sitting position),0.488151,0.011181831
+stsb-bert-large,SA-DVAE,7,Throw,0.51277894,Pointing to something with finger,0.5354067,Pushing other person,0.53408545,0.0013212562
+stsb-bert-large,SA-DVAE,8,Sitting down,0.50586784,Standing up (from sitting position),0.66559076,Drop,0.50648046,0.15911031
+stsb-bert-large,SA-DVAE,9,Standing up (from sitting position),0.41882783,Sitting down,0.66559076,Jumping up,0.6557826,0.009808183
+stsb-bert-large,SA-DVAE,10,Clapping,0.3792832,Putting the palms together,0.7283366,Handshaking,0.6298042,0.09853238
+stsb-bert-large,SA-DVAE,11,Reading,0.5892729,Writing,0.6682484,Typing on a keyboard,0.39596575,0.27228266
+stsb-bert-large,SA-DVAE,12,Writing,0.5053693,Reading,0.6682484,Typing on a keyboard,0.6093179,0.058930516
+stsb-bert-large,SA-DVAE,13,Tear up paper,0.615566,Take off glasses,0.44533867,Take off a shoe,0.3820139,0.06332478
+stsb-bert-large,SA-DVAE,14,Wear jacket,0.5503128,Touching other person's pocket,0.5211994,Put on a hat/cap,0.474055,0.047144413
+stsb-bert-large,SA-DVAE,15,Take off jacket,0.47697407,Take off a hat/cap,0.66319567,Take off glasses,0.564358,0.09883767
+stsb-bert-large,SA-DVAE,16,Wear a shoe,0.5716722,Take off a shoe,0.5634861,Kicking something,0.4596805,0.1038056
+stsb-bert-large,SA-DVAE,17,Take off a shoe,0.47639048,Take off glasses,0.58754474,Take off a hat/cap,0.57269096,0.0148537755
+stsb-bert-large,SA-DVAE,18,Wear on glasses,0.550947,Put on a hat/cap,0.62538975,Wiping face,0.4360115,0.18937826
+stsb-bert-large,SA-DVAE,19,Take off glasses,0.45941782,Take off a hat/cap,0.58920324,Take off a shoe,0.58754474,0.0016584992
+stsb-bert-large,SA-DVAE,20,Put on a hat/cap,0.508323,Wear on glasses,0.62538975,Using a fan (with hand or paper),0.49180335,0.1335864
+stsb-bert-large,SA-DVAE,21,Take off a hat/cap,0.4498273,Take off jacket,0.66319567,Take off glasses,0.58920324,0.07399243
+stsb-bert-large,SA-DVAE,22,Cheer up,0.60284543,Clapping,0.41618252,Hugging other person,0.4036715,0.012511015
+stsb-bert-large,SA-DVAE,23,Hand waving,0.4738148,Handshaking,0.5639653,Salute,0.5572677,0.006697595
+stsb-bert-large,SA-DVAE,24,Kicking something,0.42576462,Kicking other person,0.81639093,Hopping (one foot jumping),0.60150284,0.2148881
+stsb-bert-large,SA-DVAE,25,Reach into pocket,0.5192576,Touching other person's pocket,0.71849793,Handshaking,0.44134212,0.27715582
+stsb-bert-large,SA-DVAE,26,Hopping (one foot jumping),0.45466983,Jumping up,0.62283605,Kicking something,0.60150284,0.021333218
+stsb-bert-large,SA-DVAE,27,Jumping up,0.50442183,Standing up (from sitting position),0.6557826,Hopping (one foot jumping),0.62283605,0.032946527
+stsb-bert-large,SA-DVAE,28,Make a phone call/Answer phone,0.66402656,Playing with phone/tablet,0.50722516,Walking towards each other,0.3062401,0.20098504
+stsb-bert-large,SA-DVAE,29,Playing with phone/tablet,0.5614753,Make a phone call/Answer phone,0.50722516,Typing on a keyboard,0.504834,0.0023911595
+stsb-bert-large,SA-DVAE,30,Typing on a keyboard,0.55213976,Writing,0.6093179,Playing with phone/tablet,0.504834,0.1044839
+stsb-bert-large,SA-DVAE,31,Pointing to something with finger,0.49985468,Throw,0.5354067,Pointing finger at the other person,0.51248175,0.02292496
+stsb-bert-large,SA-DVAE,32,Taking a selfie,0.6870079,Handshaking,0.32780397,Playing with phone/tablet,0.3266735,0.0011304617
+stsb-bert-large,SA-DVAE,33,Checking time (from watch),0.6493627,Typing on a keyboard,0.3764655,Reach into pocket,0.35141265,0.025052845
+stsb-bert-large,SA-DVAE,34,Rubbing two hands together,0.4619847,Putting the palms together,0.57902473,Patting on back of other person,0.5585193,0.020505428
+stsb-bert-large,SA-DVAE,35,Nod headbow,0.46404505,Salute,0.6204051,Handshaking,0.61854184,0.0018632412
+stsb-bert-large,SA-DVAE,36,Shake head,0.50406796,Crossing hands in front (saying stop),0.5632816,Pointing finger at the other person,0.54239035,0.02089125
+stsb-bert-large,SA-DVAE,37,Wiping face,0.5025304,Brushing teeth,0.58123624,Sneeze/cough,0.565926,0.015310228
+stsb-bert-large,SA-DVAE,38,Salute,0.3482855,Handshaking,0.7787703,Putting the palms together,0.7001977,0.07857263
+stsb-bert-large,SA-DVAE,39,Putting the palms together,0.33805817,Handshaking,0.7530523,Clapping,0.7283366,0.024715722
+stsb-bert-large,SA-DVAE,40,Crossing hands in front (saying stop),0.5266994,Shake head,0.5632816,Putting the palms together,0.48907596,0.07420564
+stsb-bert-large,SA-DVAE,41,Sneeze/cough,0.48738176,Nausea or vomiting,0.6751331,Wiping face,0.565926,0.10920709
+stsb-bert-large,SA-DVAE,42,Staggering,0.5052357,Falling,0.6142266,Shake head,0.5099661,0.104260504
+stsb-bert-large,SA-DVAE,43,Falling,0.4579172,Drop,0.7496043,Staggering,0.6142266,0.1353777
+stsb-bert-large,SA-DVAE,44,Touching head (headache),0.4129032,Touching neck (neckache),0.822592,Touching back (backache),0.6753062,0.14728582
+stsb-bert-large,SA-DVAE,45,Touching chest (stomachache/heart pain),0.52558583,Hugging other person,0.53383124,Touching neck (neckache),0.4867543,0.04707694
+stsb-bert-large,SA-DVAE,46,Touching back (backache),0.45063227,Touching head (headache),0.6753062,Touching neck (neckache),0.6019526,0.07335359
+stsb-bert-large,SA-DVAE,47,Touching neck (neckache),0.43176597,Touching head (headache),0.822592,Touching back (backache),0.6019526,0.22063941
+stsb-bert-large,SA-DVAE,48,Nausea or vomiting,0.53337073,Sneeze/cough,0.6751331,Staggering,0.44997105,0.22516206
+stsb-bert-large,SA-DVAE,49,Using a fan (with hand or paper),0.54558027,Rubbing two hands together,0.53163487,Put on a hat/cap,0.49180335,0.03983152
+stsb-bert-large,SA-DVAE,50,Punching/Slapping other person,0.4849348,Kicking other person,0.6360256,Pushing other person,0.60172457,0.034301043
+stsb-bert-large,SA-DVAE,51,Kicking other person,0.38757265,Kicking something,0.81639093,Pushing other person,0.6601861,0.15620482
+stsb-bert-large,SA-DVAE,52,Pushing other person,0.40949762,Kicking other person,0.6601861,Punching/Slapping other person,0.60172457,0.058461547
+stsb-bert-large,SA-DVAE,53,Patting on back of other person,0.4189275,Hugging other person,0.62082,Clapping,0.5998972,0.02092278
+stsb-bert-large,SA-DVAE,54,Pointing finger at the other person,0.4576596,Pushing other person,0.58486164,Punching/Slapping other person,0.5495355,0.035326123
+stsb-bert-large,SA-DVAE,55,Hugging other person,0.44248343,Patting on back of other person,0.62082,Handshaking,0.6013874,0.019432604
+stsb-bert-large,SA-DVAE,56,Giving something to other person,0.5909026,Handshaking,0.4338781,Hand waving,0.42493787,0.00894022
+stsb-bert-large,SA-DVAE,57,Touching other person's pocket,0.50900066,Reach into pocket,0.71849793,Wear jacket,0.5211994,0.19729853
+stsb-bert-large,SA-DVAE,58,Handshaking,0.3236888,Salute,0.7787703,Putting the palms together,0.7530523,0.025718033
+stsb-bert-large,SA-DVAE,59,Walking towards each other,0.48657972,Pushing other person,0.5468063,Standing up (from sitting position),0.5420672,0.004739046
+stsb-bert-large,SA-DVAE,60,Walking apart from each other,0.5486214,Walking towards each other,0.4774119,Take off jacket,0.46750686,0.00990504
+stsb-bert-large,STAR,1,Drink water,0.30245888,Nausea or vomiting,0.71728873,Nod headbow,0.7100419,0.007246852
+stsb-bert-large,STAR,2,Eat meal/snack,0.36321503,Nausea or vomiting,0.6817048,Sitting down,0.6417749,0.039929926
+stsb-bert-large,STAR,3,Brushing teeth,0.36262184,Wiping face,0.69882846,Brushing hair,0.6926216,0.00620687
+stsb-bert-large,STAR,4,Brushing hair,0.31163043,Wiping face,0.69593817,Brushing teeth,0.6926216,0.0033165812
+stsb-bert-large,STAR,5,Drop,0.22690499,Pickup,0.8093686,Falling,0.7977463,0.01162231
+stsb-bert-large,STAR,6,Pickup,0.18003958,Jumping up,0.8494013,Standing up (from sitting position),0.818285,0.031116307
+stsb-bert-large,STAR,7,Throw,0.13799322,Jumping up,0.8890253,Kicking something,0.8849225,0.0041027665
+stsb-bert-large,STAR,8,Sitting down,0.23505127,Touching back (backache),0.80135036,Pickup,0.7739425,0.027407885
+stsb-bert-large,STAR,9,Standing up (from sitting position),0.16859496,Jumping up,0.87447226,Pushing other person,0.84005874,0.034413517
+stsb-bert-large,STAR,10,Clapping,0.23516881,Patting on back of other person,0.7867425,Shake head,0.7683883,0.018354237
+stsb-bert-large,STAR,11,Reading,0.29693288,Writing,0.8445699,Typing on a keyboard,0.7197889,0.12478101
+stsb-bert-large,STAR,12,Writing,0.26155746,Reading,0.8445699,Typing on a keyboard,0.8039012,0.040668726
+stsb-bert-large,STAR,13,Tear up paper,0.30074632,Pushing other person,0.71043086,Throw,0.70942545,0.0010054111
+stsb-bert-large,STAR,14,Wear jacket,0.24777967,Take off jacket,0.8845973,Put on a hat/cap,0.7581481,0.12644923
+stsb-bert-large,STAR,15,Take off jacket,0.22341222,Wear jacket,0.8845973,Take off a hat/cap,0.83184814,0.052749157
+stsb-bert-large,STAR,16,Wear a shoe,0.19232196,Take off a shoe,0.90198743,Put on a hat/cap,0.84937084,0.052616596
+stsb-bert-large,STAR,17,Take off a shoe,0.18213081,Wear a shoe,0.90198743,Take off a hat/cap,0.84536695,0.05662048
+stsb-bert-large,STAR,18,Wear on glasses,0.21616882,Put on a hat/cap,0.8071781,Take off glasses,0.80691737,0.00026071072
+stsb-bert-large,STAR,19,Take off glasses,0.23629266,Wear on glasses,0.80691737,Take off a hat/cap,0.8033874,0.0035299659
+stsb-bert-large,STAR,20,Put on a hat/cap,0.1813755,Take off a hat/cap,0.87077725,Wear a shoe,0.84937084,0.021406412
+stsb-bert-large,STAR,21,Take off a hat/cap,0.17345369,Put on a hat/cap,0.87077725,Take off a shoe,0.84536695,0.025410295
+stsb-bert-large,STAR,22,Cheer up,0.3828789,Hand waving,0.66246945,Standing up (from sitting position),0.6173711,0.045098364
+stsb-bert-large,STAR,23,Hand waving,0.24120218,Patting on back of other person,0.7702615,Giving something to other person,0.7646577,0.00560385
+stsb-bert-large,STAR,24,Kicking something,0.13186014,Kicking other person,0.930881,Throw,0.8849225,0.04595852
+stsb-bert-large,STAR,25,Reach into pocket,0.20680201,Touching other person's pocket,0.9561632,Put on a hat/cap,0.78905416,0.16710907
+stsb-bert-large,STAR,26,Hopping (one foot jumping),0.14242822,Jumping up,0.90879476,Throw,0.8623424,0.046452343
+stsb-bert-large,STAR,27,Jumping up,0.11946952,Hopping (one foot jumping),0.90879476,Throw,0.8890253,0.01976949
+stsb-bert-large,STAR,28,Make a phone call/Answer phone,0.27639198,Playing with phone/tablet,0.8133843,Handshaking,0.7075327,0.10585159
+stsb-bert-large,STAR,29,Playing with phone/tablet,0.22936332,Make a phone call/Answer phone,0.8133843,Taking a selfie,0.7750164,0.038367867
+stsb-bert-large,STAR,30,Typing on a keyboard,0.277112,Writing,0.8039012,Playing with phone/tablet,0.73040783,0.07349336
+stsb-bert-large,STAR,31,Pointing to something with finger,0.13695192,Pointing finger at the other person,0.97003955,Putting the palms together,0.8520405,0.11799902
+stsb-bert-large,STAR,32,Taking a selfie,0.26808727,Playing with phone/tablet,0.7750164,Giving something to other person,0.7323266,0.0426898
+stsb-bert-large,STAR,33,Checking time (from watch),0.27917707,Wear on glasses,0.7583032,Shake head,0.71810603,0.040197194
+stsb-bert-large,STAR,34,Rubbing two hands together,0.16640675,Putting the palms together,0.86998975,Crossing hands in front (saying stop),0.845676,0.024313748
+stsb-bert-large,STAR,35,Nod headbow,0.21523958,Shake head,0.8094413,Handshaking,0.7869822,0.02245915
+stsb-bert-large,STAR,36,Shake head,0.17965996,Crossing hands in front (saying stop),0.83784115,Rubbing two hands together,0.8264444,0.011396766
+stsb-bert-large,STAR,37,Wiping face,0.25549233,Sneeze/cough,0.79957163,Rubbing two hands together,0.7445248,0.055046856
+stsb-bert-large,STAR,38,Salute,0.22192323,Handshaking,0.81729096,Wear on glasses,0.7834852,0.033805788
+stsb-bert-large,STAR,39,Putting the palms together,0.14793521,Crossing hands in front (saying stop),0.9115969,Rubbing two hands together,0.86998975,0.04160714
+stsb-bert-large,STAR,40,Crossing hands in front (saying stop),0.15035725,Putting the palms together,0.9115969,Rubbing two hands together,0.845676,0.06592089
+stsb-bert-large,STAR,41,Sneeze/cough,0.2830606,Nausea or vomiting,0.8088968,Wiping face,0.79957163,0.009325147
+stsb-bert-large,STAR,42,Staggering,0.2639953,Falling,0.8709481,Walking apart from each other,0.74467635,0.12627172
+stsb-bert-large,STAR,43,Falling,0.24262899,Staggering,0.8709481,Drop,0.7977463,0.073201776
+stsb-bert-large,STAR,44,Touching head (headache),0.20402384,Touching back (backache),0.840171,Touching neck (neckache),0.8249453,0.0152257085
+stsb-bert-large,STAR,45,Touching chest (stomachache/heart pain),0.21587145,Touching head (headache),0.81254655,Touching back (backache),0.8049482,0.0075983405
+stsb-bert-large,STAR,46,Touching back (backache),0.17275125,Touching neck (neckache),0.8932841,Touching head (headache),0.840171,0.053113103
+stsb-bert-large,STAR,47,Touching neck (neckache),0.18893927,Touching back (backache),0.8932841,Touching head (headache),0.8249453,0.06833881
+stsb-bert-large,STAR,48,Nausea or vomiting,0.22572613,Sneeze/cough,0.8088968,Touching neck (neckache),0.7806306,0.028266191
+stsb-bert-large,STAR,49,Using a fan (with hand or paper),0.24216515,Rubbing two hands together,0.80997586,Patting on back of other person,0.7984157,0.011560142
+stsb-bert-large,STAR,50,Punching/Slapping other person,0.21769094,Kicking other person,0.8084666,Kicking something,0.8000106,0.008455992
+stsb-bert-large,STAR,51,Kicking other person,0.1621176,Kicking something,0.930881,Throw,0.82906985,0.10181117
+stsb-bert-large,STAR,52,Pushing other person,0.15441114,Jumping up,0.88095844,Throw,0.8426323,0.038326144
+stsb-bert-large,STAR,53,Patting on back of other person,0.19047499,Hugging other person,0.8500961,Rubbing two hands together,0.8158802,0.034215927
+stsb-bert-large,STAR,54,Pointing finger at the other person,0.1390065,Pointing to something with finger,0.97003955,Putting the palms together,0.84806764,0.121971905
+stsb-bert-large,STAR,55,Hugging other person,0.24055022,Patting on back of other person,0.8500961,Handshaking,0.74546534,0.10463077
+stsb-bert-large,STAR,56,Giving something to other person,0.19066846,Pointing to something with finger,0.8463471,Pointing finger at the other person,0.83736056,0.008986533
+stsb-bert-large,STAR,57,Touching other person's pocket,0.19978583,Reach into pocket,0.9561632,Put on a hat/cap,0.7715219,0.1846413
+stsb-bert-large,STAR,58,Handshaking,0.20101398,Salute,0.81729096,Shake head,0.81316036,0.004130602
+stsb-bert-large,STAR,59,Walking towards each other,0.22178018,Walking apart from each other,0.87777597,Jumping up,0.7722118,0.10556418
+stsb-bert-large,STAR,60,Walking apart from each other,0.21146071,Walking towards each other,0.87777597,Kicking something,0.7814257,0.09635025

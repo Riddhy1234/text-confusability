@@ -17,7 +17,7 @@ REPORT_DIR = Path("reports")
 
 REPORT_DIR.mkdir(exist_ok=True)
 
-ENCODER = "all-MiniLM-L6-v2"
+encoder_name = "stsb-bert-large"
 
 # Phase 1 showed these are identical.
 # We therefore analyse one Holistic-LLM group
@@ -45,7 +45,7 @@ def load_embeddings(source_name):
     path = (
         EMBEDDING_DIR
         /
-        f"{source_name}_{ENCODER}.npy"
+        f"{source_name}_{encoder_name}.npy"
     )
 
     if not path.exists():
@@ -110,7 +110,7 @@ def compute_class_metrics(
     """
     Compute nearest neighbour,
     distinctiveness,
-    and margin for every class.
+    and top1_top2_gap  for every class.
     """
 
     rows = []
@@ -139,8 +139,8 @@ def compute_class_metrics(
             1.0 -
             float(np.mean(topk_scores))
         )
-
-        margin = (
+        top1_top2_gap=(
+                                       
             top1_score -
             top2_score
         )
@@ -152,7 +152,7 @@ def compute_class_metrics(
                 "nearest_class": catalog.loc[top1, "canonical_name"],
                 "nearest_similarity": top1_score,
                 "distinctiveness": distinctiveness,
-                "margin": margin,
+                "top1_top2_gap": top1_top2_gap,
             }
         )
 
@@ -184,7 +184,7 @@ def write_report(
     pair_scores,
     class_df,
     report_path,
-):
+):        
     """
     Write one group's results
     into the markdown report.
@@ -235,7 +235,7 @@ def write_report(
             )
 
             f.write(
-                f"  - Margin : {row['margin']:.4f}\n\n"
+                f"  - Top1-Top2 Gap : {row['top1_top2_gap']:.4f}\n\n"                                    
             )
 
 
@@ -264,7 +264,7 @@ def initialize_report(
         )
 
         f.write(
-            f"Encoder: {ENCODER}\n\n"
+            f"Encoder: {encoder_name}\n\n"
         )
 
         f.write(

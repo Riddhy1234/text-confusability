@@ -1,0 +1,10 @@
+{
+  "encoder": "stsb-bert-large",
+  "source": "canonical_name",
+  "shape": [
+    60,
+    1024
+  ],
+  "dimension": 1024,
+  "content_hash": "63f9482f542c290a6141a578cba97da4c62e659c613dd593bf9702bd3c05078a"
+}

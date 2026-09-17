@@ -1,0 +1,10 @@
+{
+  "encoder": "all-mpnet-base-v2",
+  "source": "star_description",
+  "shape": [
+    60,
+    768
+  ],
+  "dimension": 768,
+  "content_hash": "137e94cc7d3c83160da277cfbdf64adc5108fd6c15d2a07831dcf24803a295f3"
+}

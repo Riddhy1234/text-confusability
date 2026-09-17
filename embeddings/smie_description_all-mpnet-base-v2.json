@@ -1,0 +1,10 @@
+{
+  "encoder": "all-mpnet-base-v2",
+  "source": "smie_description",
+  "shape": [
+    60,
+    768
+  ],
+  "dimension": 768,
+  "content_hash": "f313324dcf9aa626f0a658f6d373771b695a7c9be9f067a94efa5f30a5b78bf8"
+}
